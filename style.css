@@ -59,7 +59,7 @@ a:hover {
 
 p {
 	font-size: 15px;
-	line-height: 5px;
+	line-height: 1.5;
 }
 
 #head {
@@ -71,8 +71,7 @@ button {
 	color: #ffffff;
 	background-color: hotpink;
 	border: none;
-	padding: 15px;
-	width: 60px;
+	width: 400px;
 	margin: auto;
 	text-align: center;
 	text-decoration: none;
