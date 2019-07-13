@@ -47,3 +47,10 @@ a:link, a:visited {
 a:hover {
 	color: hotpink;
 }
+
+pre {
+	width: 600px;
+	margin: auto;
+	text-align: center;
+	font-family: "verdana", sans-serif;
+}
