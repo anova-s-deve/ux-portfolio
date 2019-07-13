@@ -40,7 +40,7 @@ footer {
 	background-color: #ffffff
 }
 
-a:link a:visited {
+a:link, a:visited {
 	color: #0c0c0c;
 }
 
