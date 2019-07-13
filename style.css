@@ -73,7 +73,7 @@ p {
 button {
 	width: 170px;
 	margin:0 auto;
-	/* display: block; */
+	display: block;
 	color: #ffffff;
 	background-color: #ff0080;
 	border: none;
