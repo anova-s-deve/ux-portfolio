@@ -72,7 +72,7 @@ p {
 
 button {
 	width: 170px;
-	margin: auto;
+	margin:0 auto;
 	color: #ffffff;
 	background-color: #ff0080;
 	border: none;
