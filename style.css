@@ -1,0 +1,49 @@
+/* external css style file */
+body {
+	padding: 18px 180px; 
+	border: 0;
+	margin: 0;
+}
+
+header {
+	font-family: "verdana", sans-serif; 
+	font-size: 18px;
+	color: #0c0c0c;
+	background-color: #ffffff
+}
+
+#nav-menu {
+	float: right;
+}
+
+a {
+	text-decoration: none;
+}
+
+#intro {
+	padding: 50px 0px;
+	border: 0;
+	font-family: "verdana", sans-serif;
+	width: 600px;
+	margin: auto;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+footer {
+	width: 440px;
+	margin: auto;
+	text-align: center;
+	font-family: verdana; 
+	font-size: 18px;
+	color: #0c0c0c;
+	background-color: #ffffff
+}
+
+a:link a:visited {
+	color: #0c0c0c;
+}
+
+a:hover {
+	color: hotpink;
+}
