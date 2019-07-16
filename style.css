@@ -16,6 +16,10 @@ header {
 	float: right;
 }
 
+#nav-menu-items {
+	padding: 0px 25px;
+}
+
 a {
 	text-decoration: none;
 }
