@@ -1,4 +1,8 @@
 /* external css style file */
+html {
+	overflow: auto;
+}
+
 body {
 	padding: 18px 180px; 
 	border: 0;
