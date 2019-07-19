@@ -103,8 +103,9 @@ button:hover {
 }
 
 #profile-pic {
- 	border: 5px solid;
- 	width: 1920px; 
+	color: #000000;
+ 	width: 1920px;
+ 	margin: auto; 
  	height: 500px;
  }
 
