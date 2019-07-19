@@ -98,5 +98,7 @@ button:hover {
 
 #profile-pic {
  	border: 5px solid;
+ 	width: 1920px; 
+ 	height: 500px;
  }
 
