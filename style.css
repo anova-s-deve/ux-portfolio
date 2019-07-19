@@ -11,7 +11,7 @@ body {
 }
 
 header {
-	font-family: 'Roboto', sans-serif; 
+	font-family: 'Roboto 700', sans-serif; 
 	font-size: 18px;
 	color: #0c0c0c;
 	background-color: #ffffff
@@ -19,6 +19,7 @@ header {
 
 #nav-menu {
 	float: right;
+	font-family: 'Roboto 400', sans-serif;
 }
 
 .nav-menu-items {
