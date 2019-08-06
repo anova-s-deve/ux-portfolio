@@ -24,9 +24,13 @@ header {
 	left: 200px;
 	top: 64px;
 	font-family: 'Miriam Libre';
-	font-size: 20px;
+	font-size: 16px;
 	line-height: 26px;
 	color: #696969;
+}
+
+#anova {
+	text-decoration: underline;
 }
 
 .nav-menu-items {
