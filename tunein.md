@@ -25,14 +25,14 @@ In order to identify the pain points and subsequent opportunities for redesign a
 ### 1. User Research
 
 #### Competitive audit
+TuneIn's business goal is steered to promote streaming live radio on the internet and bringing all of radio from world over on one dial and further solving for discovery.
+Several music streaming websites are being considered competitors to TuneIn since music streaming and the new "radio" which are automated playlists have impacted the market for Live Radio making it all the more crucial to observe and analyse those services as well.
+
 Popular competitors to TuneIn as listed by web analytics service, SimilarWeb and as per [an interview of the current CEO of TuneIn, John Dunham by Wade Roush, a podcast producer](https://xconomy.com/national/2013/01/11/turning-on-to-live-internet-radio-with-tunein/?single_page=true) are iHeartRadio, Sirius XM, Pandora, Deezer- none of which are available in India and Stitcher, Spotify, SoundCloud, Radio Garden among others.
 
 Out of them, the applications selected for the audit were based on:
 1. Whether or not they aim to cater to a global user base
 2. The products they offered
-
-TuneIn's business goal is steered to promote streaming live radio on the internet and bringing all of radio from world over on one dial and further solving for discovery.
-Several music streaming websites are being considered competitors to TuneIn since music streaming and the new "radio" which are automated playlists have impacted the market for Live Radio making it all the more crucial to observe and analyse those services as well.
 
 ##### Feature Matrix
 *|     | TuneIn | iHeartRadio | Stitcher | Spotify | SoundCloud | Radio Garden |
@@ -51,20 +51,23 @@ Recommender system from recent plays | &#10003; | &#10003; || &#10003; | &#10003
 Recently played | &#10003; | &#10003; || &#10003; | &#10003; |
 Trending | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; |
 
-##### Usability- Satisfaction Matrix
-![Image of the matrix](link"Usability-SatisfactionMatrix")--
-The audit involved plotting the competitor apps across a matrix of usability and satisfaction. We see that although Spotify is higher up in its overall performance which is mainly attributed to its "recommender systems" and its aesthetics, users claim it isn't the most efficient and seamless experience owing to the myriad sections under the Browse panel. Stitcher comes right behind it in usability owing to its "Less is more" approach in organising it's content. Radio Garden with it's unique and minimalist approach to presenting Live Radio remains highly usable lagging behind majorly in its aesthetic element. SoundCloud with its TuneIn scores in it's overall performance as it allows for a large amount of unique content available and it's simplicity but lacks in a big dose of essential functionalities.
-
 #### User Interviews
 
-Users for interviews were identified:
-1. Friends via social media who are familiar with TuneIn.
+The user base that I convened were:
+1. Maria
+2. Friends via social media who are familiar with TuneIn.
 2. Traditional radio users who were open to the idea of engaging with a radio application on a PC.
-3. Users that use other apps to listen to live radio.
-4. User reviews on their Facebook page.
-5. User reviews from a forum called Anime Superhero.
+3. Users that use TuneIn or other apps to listen to live radio.
 
-The interview comprised of the users discussing their real/ hypothetic motivation to use the App, how they would go about the usage and what their pain points are. We looked at a page-wise critique of the application generally comprising of its homepage, category page and the final product page.  
+I also referred user reviews from TuneIn's Facebook page and a forum called Anime Superhero which incidentally had a thread on TuneIn.
+
+Five users who were familiar or were ready to engage with the selected apps were selected to conduct a comparative audit. The audit involved plotting the competing applications across a matrix of usability and satisfaction with TuneIn.
+
+![Image of the matrix](link"Usability-SatisfactionMatrix")--
+
+ We see that although Spotify is higher up in its overall performance which is mainly attributed to its "recommender systems" and its aesthetics although users claim it isn't the most efficient of applications owing to it's incoherent sections under the Browse panel. Stitcher is at par in it's usability owing to its "Less is more" approach in organising it's content. Radio Garden with it's unique and minimalistic approach to presenting Live Radio remains highly usable lagging behind majorly in its aesthetic element. The most outstanding thing about SoundCloud is the importance the application gives user engagement via its socialisation features. iHeart Radio which is the most close in function to TuneIn scores well in it's overall performance as it makes a large amount of unique content convenient for discovery and is also ahead of TuneIn in terms of related functionalities.
+
+Further interviews comprised of the users discussing their real/ hypothetic motivations to use the App, how they would go about the usage and what their pain points are. We looked at a page-wise critique of the application generally comprising of its homepage, category page and the final product page.  
 
 The pain points as pointed out by the users verbatim:
 
@@ -101,13 +104,12 @@ The pain points as pointed out by the users verbatim:
 ##### ERROR RECOGNITION
 > *"It's neither running with Firefox nor Chrome on Ubuntu. There is some error and I can't fix it."*
 
-#### Unveiling our User Personas
+#### Unveiling of our User Personas
 -----
 
 ![Profile photo of User Persona-1](link"UserPersona-1,SivaVenkataramanujam")  
 
-Shyam Sreedharan, 56  
-*Radio Aficionado*
+Shyam The Radio Aficionado, 56  
 > *"Me and my wife have always listened to the radio."*  
 
 
@@ -121,8 +123,7 @@ Shyam Sreedharan, 56
 
 ![Profile photo of User Persona-2](link"UserPersona-2,ShreyaNath")
 
-Maria De Rossi, 26  
-*Radio cub*  
+Maria The Radio Cub, 26  
 > *"I like exploring."*  
 
 *Lives in Tennessee*        
