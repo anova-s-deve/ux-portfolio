@@ -14,38 +14,34 @@ Audio content happens to be consumable while being engaged- cooking, driving or 
 
 On a little investigation, she learns that TuneIn aims to be the largest (more than 100,000 radio stations and 4 million podcasts) annotated catalog of live radio programming and on-demand radio from around the world with more than 75 million monthly active users as of 2019. TuneIn works on multiple platforms like voice assistants, home sound systems, multiroom entertainment platforms, Google Play Store, App Store, Microsoft Store, is even integrated with various car models, etc.
 
-Since I'm looking to do a redesign piece for my portfolio, Maria asks me to try redesigning TuneIn to be more empathetic to its users.
+Since I was looking to do a redesign piece for my portfolio, Maria asks me to try redesigning TuneIn to be more empathetic to its users.
 
-She identifies it to be it's most apathetic yet accessible interfaces. And so begins the journey of this redesign of its web browser application.
+She identifies it to be among its apathetic yet accessible interfaces. And so begins the journey of this redesign of its web browser application.
 
 ## Project Plan
 
 In order to identify the pain points and subsequent opportunities for redesign an iterative design process that comprised of the following [activities](ux activities on GitHub) was planned to be carried out within a self-imposed period of a month.
 
-### 1. Research
+### 1. User Research
 
 #### Competitive audit
-Popular competitors to TuneIn as listed by web analytics service, SimilarWeb and as per [an interview of the current CEO of TuneIn, John Dunham by Wade Roush, a podcast producer](https://xconomy.com/national/2013/01/11/turning-on-to-live-internet-radio-with-tunein/?single_page=true) are iHeartRadio, Sirius XM, Pandora, Deezer- none of which are available in India, Stitcher, Spotify, SoundCloud, Radio Garden and a few more.
+Popular competitors to TuneIn as listed by web analytics service, SimilarWeb and as per [an interview of the current CEO of TuneIn, John Dunham by Wade Roush, a podcast producer](https://xconomy.com/national/2013/01/11/turning-on-to-live-internet-radio-with-tunein/?single_page=true) are iHeartRadio, Sirius XM, Pandora, Deezer- none of which are available in India and Stitcher, Spotify, SoundCloud, Radio Garden among others.
 
 Out of them, the applications selected for the audit were based on:
 1. Whether or not they aim to cater to a global user base
-2. The closest type of products they offered to TuneIn
+2. The products they offered
 
 TuneIn's business goal is steered to promote streaming live radio on the internet and bringing all of radio from world over on one dial and further solving for discovery.
-Several music streaming websites are being considered competitors to TuneIn since music streaming and the new "radio" which are automated playlists have begun to impact the market for Live Radio making it all the more crucial to observe and analyse their pain points and strengths to identify opportunities.
-
-##### Usability- Satisfaction Matrix
-![Image of the matrix](link"Usability-SatisfactionMatrix")--
-The audit involved plotting the competitor apps across a matrix of usability and satisfaction. We see that although Spotify is higher up in its overall performance which is mainly attributed to its "recommender systems" and its aesthetics, users claim it isn't the most efficient and seamless experience owing to the myriad sections under the Browse panel. Stitcher comes right behind it in usability owing to its "Less is more" approach in organising it's content. Radio Garden with it's unique and minimalist approach to presenting Live Radio remains highly usable lagging behind majorly in its aesthetic element. SoundCloud with its TuneIn scores in it's overall performance as it allows for a large amount of unique content available and it's simplicity but lacks in a big dose of essential functionalities.
+Several music streaming websites are being considered competitors to TuneIn since music streaming and the new "radio" which are automated playlists have impacted the market for Live Radio making it all the more crucial to observe and analyse those services as well.
 
 ##### Feature Matrix
-|     | TuneIn | iHeartRadio | Stitcher | Spotify | SoundCloud | Radio Garden |
+*|     | TuneIn | iHeartRadio | Stitcher | Spotify | SoundCloud | Radio Garden |
 |---|---|---|---|---|---|---|
 Type | Live Radio, Music Streaming, Podcasts | Live Radio, Music Streaming, Podcasts | Podcasts | Music Streaming, Podcasts | Music Streaming | Live Radio
 Mandatory Sign In/ Sign Up | | | &#10003; | &#10003; | &#10003; | |
-Content and Label | Stations, Podcasts, Events, Shows | Stations, Podcasts, Artist Radio, Playlists | Shows | Playlists, Stations, Podcasts | Playlists | Stations
-Categories | By Location, By Language, Music, Sports, News, Talk, Podcasts, Trending, Recent, Local Radio | Recommendations, Recent, Saved, Live Radio by location and genre, Podcasts by genre, Artist Radio Stations by genre, Playlists by moods & activities, decades, featured, genres | By Genres, International, Critically Acclaimed, Popular and Trending, New and Noteworthy | FEATURED>Recommended, Recent, More like .., Editor's pick, Charts, PODCASTS> Thematic, Trending, CHARTS>Featured, Top 50, Viral 50, Genres and Moods>Themes, NEW RELEASES> The best, New albums & Singles, DISCOVER>Recommended, More like .., Editor's pick | By Activity, By Mood, Charts: Trending, Top 50 and more | By location
-Navigation | Location, Language, Music, Sports, News, Talk, Podcasts, Trending, Recent, Local Radio, Favourites | For You, Your Library, Live Radio, Podcasts, Artist Radio, Playlists, Genres, News, Features, Events, Contests, Photos | My Front Page, Favourites Playlist, Saved Episodes, Browse Shows | Home, Search, Library, Playlists | Home, Stream, Library | Browse location, Library
+Content and Label | Stations, Podcasts, Events, Shows | Stations, Podcasts, Artist Radio, Playlists | Shows | Playlists, Stations, Podcasts | Playlists | Stations*
+*Categories | By Location, By Language, Music, Sports, News, Talk, Podcasts, Trending, Recent, Local Radio |* Recommendations, Recent, Saved, Live Radio by location and genre, Podcasts by genre, Artist Radio Stations by genre, Playlists by moods & activities, decades, featured, genres | By Genres, International, Critically Acclaimed, Popular and Trending, New and Noteworthy | FEATURED>Recommended, Recent, More like .., Editor's pick, Charts, PODCASTS> Thematic, Trending, CHARTS>Featured, Top 50, Viral 50, Genres and Moods>Themes, NEW RELEASES> The best, New albums & Singles, DISCOVER>Recommended, More like .., Editor's pick | By Activity, By Mood, Charts: Trending, Top 50 and more | By location
+*Navigation | Location, Language, Music, Sports, News, Talk, Podcasts, Trending, Recent, Local Radio, Favourites | For You, Your Library, Live Radio, Podcasts, Artist Radio, Playlists, Genres, News, Features, Events, Contests, Photos | My Front Page, Favourites Playlist, Saved Episodes, Browse Shows | Home, Search, Library, Playlists | Home, Stream, Library | Browse location, Library*
 Search & Browse | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; | &#10003;
 Social Plugins | Share | Share, Like | Share | Share | Like, Plays, Repost, Share, Comment | Share
 Profile Page ||||| &#10003; |
@@ -54,6 +50,10 @@ Progress Bar | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; |
 Recommender system from recent plays | &#10003; | &#10003; || &#10003; | &#10003; |
 Recently played | &#10003; | &#10003; || &#10003; | &#10003; |
 Trending | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; |
+
+##### Usability- Satisfaction Matrix
+![Image of the matrix](link"Usability-SatisfactionMatrix")--
+The audit involved plotting the competitor apps across a matrix of usability and satisfaction. We see that although Spotify is higher up in its overall performance which is mainly attributed to its "recommender systems" and its aesthetics, users claim it isn't the most efficient and seamless experience owing to the myriad sections under the Browse panel. Stitcher comes right behind it in usability owing to its "Less is more" approach in organising it's content. Radio Garden with it's unique and minimalist approach to presenting Live Radio remains highly usable lagging behind majorly in its aesthetic element. SoundCloud with its TuneIn scores in it's overall performance as it allows for a large amount of unique content available and it's simplicity but lacks in a big dose of essential functionalities.
 
 #### User Interviews
 
