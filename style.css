@@ -7,10 +7,13 @@ body {
 	font-family: 'Muli', sans-serif;
 }
 
-header {
+header, footer {
 	font-family: 'Miriam Libre', sans-serif;
 	font-size: 18px;
 	color: #696969;
+	width: 800px;
+	margin: auto;
+	text-align: center;
 }
 
 #nav-menu {
@@ -45,16 +48,6 @@ a {
 	margin: auto;
 	text-align: center;
 	letter-spacing: 2px;
-}
-
-footer {
-	width: 440px;
-	margin: auto;
-	text-align: center;
-	font-family: 'Roboto', sans-serif;
-	font-size: 18px;
-	color: #0c0c0c;
-	background-color: #ffffff
 }
 
 a:link, a:visited {
