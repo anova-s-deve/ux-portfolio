@@ -16,18 +16,6 @@ header, footer {
 	text-align: center;
 }
 
-#nav-menu {
-	position: absolute;
-	left: 150px;
-	top: 45px;
-	width: 1520px;
-	height: 29px;
-	font-family: 'Miriam Libre', sans-serif;
-	font-size: 16px;
-	line-height: 26px;
-	color: #696969;
-}
-
 #anova {
 	text-decoration: underline;
 }
