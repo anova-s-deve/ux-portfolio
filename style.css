@@ -35,10 +35,6 @@ a {
 	letter-spacing: 2px;
 }
 
-a:link, a:visited {
-	color: #0c0c0c;
-}
-
 a:hover {
 	color: hotpink;
 }
