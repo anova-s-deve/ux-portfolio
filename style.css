@@ -20,28 +20,12 @@ header, footer {
 	text-decoration: underline;
 }
 
-
 a {
 	text-decoration: none;
 }
 
-#intro {
-	padding: 50px 0px;
-	border: 0;
-	font-family: 'Roboto', sans-serif;
-	width: 700px;
-	margin: auto;
-	text-align: center;
-	letter-spacing: 2px;
-}
-
 a:hover {
 	color: hotpink;
-}
-
-p {
-	font-size: 15px;
-	line-height: 1.8;
 }
 
 button {
