@@ -32,9 +32,6 @@ header, footer {
 	text-decoration: underline;
 }
 
-.nav-menu-items {
-	padding: 0px 20px;
-}
 
 a {
 	text-decoration: none;
@@ -58,26 +55,9 @@ a:hover {
 	color: hotpink;
 }
 
-#myself {
-	padding: 50px 0px;
-	border: 0;
-	font-family: 'Roboto', sans-serif;
-	width: 800px;
-	margin: auto;
-	text-align: left;
-}
-
 p {
 	font-size: 15px;
 	line-height: 1.8;
-}
-
-#head {
-	font-size: 24px;
-	font-weight: bold;
-	width: 50%;
-	margin: auto;
-	text-align: center;
 }
 
 button {
