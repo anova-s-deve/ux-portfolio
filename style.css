@@ -34,10 +34,10 @@ nav {
 
 .grid-2 {
 	display: grid;
+	grid-template-columns: 450px auto auto auto auto 450px;
 	height: 100px;
 	grid-row-gap: 20px;
 	align-content: center;
-	grid-template-columns: 450px auto auto auto auto 450px;
 }
 
 .contacts {
@@ -47,6 +47,7 @@ nav {
 #email {
 	grid-column: 2 / 6;
 	text-align: center;
+	text-decoration: underline;
 }
 
 a {
