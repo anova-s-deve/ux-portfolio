@@ -71,10 +71,12 @@ a:hover, a:active {
 	text-align: center;
 	text-transform: capitalize;
 	font-size: 35px;
+	margin-bottom: 2px;
 }
 
 .case-study-tagline {
-	
+	text-align: center;
+	font-size: 25px;
 }
 
 button {
