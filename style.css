@@ -13,11 +13,12 @@ nav {
 	color: #696969;
 }
 
+
 .grid-1 {
 	display: grid;
 	height: 50px;
 	align-content: center;
-	grid-template-columns: 150px 700px auto 700px 150px;
+	grid-template-columns: 150px 110px 110px 110px auto 110px 110px 110px 150px;
 }
 
 #anova {
