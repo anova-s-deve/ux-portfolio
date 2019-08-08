@@ -32,6 +32,10 @@ a:hover, a:active {
 	color: hotpink;
 }
 
+.grid-1 {
+	display: grid;
+}
+
 button {
 	width: 170px;
 	margin:0 auto;
