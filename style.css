@@ -34,9 +34,10 @@ nav {
 
 .grid-2 {
 	display: grid;
-	height: 150px;
+	height: 100px;
+	grid-row-gap: 20px;
 	align-content: center;
-	grid-template-columns: 350px auto auto auto auto 350px;
+	grid-template-columns: 450px auto auto auto auto 450px;
 }
 
 .contacts {
