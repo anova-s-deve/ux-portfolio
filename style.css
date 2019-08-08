@@ -24,6 +24,10 @@ nav {
 	text-decoration: underline;
 }
 
+.nav-menu-items {
+	text-align: right;
+}
+
 .grid-2 {
 	display: grid;
 	height: 150px;
