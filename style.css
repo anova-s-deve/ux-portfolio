@@ -63,8 +63,8 @@ a:hover, a:active {
 }
 
 .grid-3 {
-	display: grid;
-
+	display: block;
+	margin: 100px 350px 10px 350px;
 }
 
 button {
