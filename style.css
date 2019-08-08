@@ -24,7 +24,11 @@ a {
 	text-decoration: none;
 }
 
-a:hover {
+a:visited, a:link {
+	color: #696969;
+}
+
+a:hover, a:active {
 	color: hotpink;
 }
 
