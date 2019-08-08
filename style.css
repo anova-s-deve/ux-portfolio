@@ -24,6 +24,17 @@ nav {
 	text-decoration: underline;
 }
 
+.grid-2 {
+	display: grid;
+	height: 150px;
+	align-content: center;
+	grid-template-columns: 150px auto auto auto auto 150px;
+}
+
+#email {
+	grid-column: 2 / 5
+}
+
 a {
 	text-decoration: none;
 }
