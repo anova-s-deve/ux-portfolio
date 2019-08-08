@@ -63,8 +63,20 @@ a:hover, a:active {
 }
 
 .grid-3 {
-	display: block;
-	margin: 100px 350px 10px 350px;
+	display: grid;
+	grid-template-columns:
+		minmax(1em, 1fr)
+		minmax(0, 70%)
+		minmax(1em, 1fr)
+	;
+}
+
+.grid-3 > * {
+	grid-column: 2;
+}
+
+.full-width {
+	grid-column: 1 / 4;
 }
 
 .case-study-title {
@@ -85,12 +97,6 @@ h2 {
 	margin-top: 110px;
 	font-size: 30px;
 	margin-bottom: 35px;
-}
-
-img {
- display: block;
- margin: auto;
- width: 1200px;
 }
 
 button {
