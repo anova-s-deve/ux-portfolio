@@ -18,7 +18,7 @@ nav {
 	display: grid;
 	height: 50px;
 	align-content: center;
-	grid-template-columns: 150px 110px 110px 110px auto 110px 110px 110px 150px;
+	grid-template-columns: 150px 330px auto 110px 110px 110px 150px;
 }
 
 #anova {
