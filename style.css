@@ -29,11 +29,11 @@ a:hover, a:active {
 	display: grid;
 	height: 50px;
 	align-content: center;
-	grid-template-columns: 150px 400px auto 400px 150px;
+	grid-template-columns: 150px 121px auto 400px 150px;
 }
 
 #anova {
-	text-decoration: underline;
+	border-bottom: 2px solid currentColor;
 }
 
 .nav-menu-items {
