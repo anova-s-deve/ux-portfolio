@@ -81,6 +81,10 @@ a:hover, a:active {
 	font-variant: all-petite-caps;
 }
 
+h2 {
+	margin-top: 50px;
+}
+
 button {
 	width: 170px;
 	margin:0 auto;
