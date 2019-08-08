@@ -67,6 +67,12 @@ a:hover, a:active {
 	margin: 100px 350px 10px 350px;
 }
 
+.case-study-title {
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 35px;
+}
+
 button {
 	width: 170px;
 	margin:0 auto;
