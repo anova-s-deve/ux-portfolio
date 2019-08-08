@@ -39,8 +39,8 @@ nav {
 	grid-template-columns: 350px auto auto auto auto 350px;
 }
 
-.contact-2 {
-	text-align: right;
+.contacts {
+	text-align: center;
 }
 
 #email {
