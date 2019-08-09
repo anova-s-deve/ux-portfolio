@@ -81,14 +81,14 @@ a:hover, a:active {
 
 img {
 	display: block;
-	margin: auto;
+	margin: 25px auto;
 }
 
 .case-study-title {
 	text-align: center;
 	text-transform: capitalize;
 	font-size: 35px;
-	margin-bottom: 2px;
+	margin-bottom: 25px;
 	margin-top: 110px;
 }
 
@@ -102,10 +102,14 @@ img {
 h2 {
 	margin-top: 110px;
 	font-size: 30px;
-	margin-bottom: 35px;
+	margin-bottom: 25px;
 }
 
 h3 {
+	font-size: 27px;
+}
+
+h4 {
 
 }
 
