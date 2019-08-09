@@ -66,7 +66,7 @@ a:hover, a:active {
 	display: grid;
 	grid-template-columns:
 		minmax(1em, 1fr)
-		minmax(0, 60%)
+		minmax(0, 50%)
 		minmax(1em, 1fr)
 	;
 }
