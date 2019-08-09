@@ -133,7 +133,13 @@ h4 {
 }
 
 h5 {
+	font-size: 25px;
+	color: #696969;
+}
 
+.time-place {
+	font-family: 'Miriam Libre', sans-serif;
+	font-size: 20px;
 }
 
 p {
