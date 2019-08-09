@@ -79,6 +79,10 @@ a:hover, a:active {
 	grid-column: 1 / 4;
 }
 
+.grid-4 {
+
+}
+
 img {
 	display: block;
 	margin: 25px auto;
@@ -118,6 +122,7 @@ p {
 	font-size: 16px;
 	line-height: 32px;
 	color: #696969;
+	margin-bottom: 0;
 }
 
 button {
