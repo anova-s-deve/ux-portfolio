@@ -80,7 +80,21 @@ a:hover, a:active {
 }
 
 .grid-4 {
+ display: grid;
+ grid-template-columns:
+		minmax(1em, 1fr)
+		minmax(0, 27.5%)
+		minmax(0, 27.5%)
+		minmax(1em, 1fr)
+ ;
+}
 
+.experience {
+	grid-column: 2;
+}
+
+.designation, .time-place, .job-description {
+	grid-column: 3;
 }
 
 img {
@@ -116,6 +130,10 @@ h3 {
 h4 {
 	font-size: 25px;
 	color: #696969;
+}
+
+h5 {
+
 }
 
 p {
