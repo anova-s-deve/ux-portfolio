@@ -66,7 +66,7 @@ a:hover, a:active {
 	display: grid;
 	grid-template-columns:
 		minmax(1em, 1fr)
-		minmax(0, 50%)
+		minmax(0, 55%)
 		minmax(1em, 1fr)
 	;
 }
@@ -111,8 +111,9 @@ h3 {
 }
 
 p {
-	font-size: 20px;
+	font-size: 17px;
 	line-height: 30px;
+	color: #696969;
 }
 
 button {
