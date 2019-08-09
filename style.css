@@ -80,7 +80,8 @@ a:hover, a:active {
 }
 
 img {
-	align-content: center;
+	display: block;
+	margin: auto;
 }
 
 .case-study-title {
