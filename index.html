@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
-	<title>Anova S. Deve</title>
+	<title>Anova - About me</title>
 	<base href="" target="_blank">
 	<meta charset="utf-8">
 	<meta name="description" content="">
 	<meta name="keywords" content="Anova">
 	<meta name="author" content="Anova S. Deve">
-	<!-- <meta http-equiv="refresh" content="55"> -->
+<!-- <meta http-equiv="refresh" content="55"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Responsive width -->
 	<link rel="shortcut icon" href="favicon.ico">
 	<link rel="apple-touch-icon" href="favicon.ico">
@@ -18,15 +18,20 @@
 </head>
 
 <body>
-	<header> <!-- Top Tab navigation -->
-		<nav id="nav-menu">
-			<a id="anova" href="index.html"><b>Anova S. Deve</b></a>
-			<a class="nav-menu-items" href="index.html">Case Studies</a>
-			<a class="nav-menu-items" href="experiments.html">Experiments</a>
-			<a class="nav-menu-items" href="about-me.html">About</a>
-		</nav>
-	</header>
-	<section id="intro"> <!-- Intro -->
+
+	<nav class="grid-1"> <!-- Top Tab navigation -->
+		<div></div>
+		<a id="anova" href="index.html"><b>Anova S. Deve</b></a>
+		<div></div>
+		<div class="nav-menu-items">
+			<a href="index.html">Case Studies </a>
+			<a class="nav-item" href="experiments.html">Experiments</a>
+			<a href="about-me.html">About</a>
+		</div>
+		<div></div>
+	</nav>
+
+	<section class="grid-3">
 		<h1>Hi, I'm Anova. I am currently relishing my days partly as a user experience designer at a technology start-up that works on an AI powered Video Analytics product and partly orchestrating the construction of my parent's home in Kerala.
 		</h1>
 		<div id="about">
@@ -51,21 +56,21 @@
 		</table>
 	</div>
 		<hr>
-	<footer> <!-- see work and contact -->
-		<nav id="my-pages">
-			<a href="https://www.linkedin.com/in/anova-sudeep-deve-466615144/" target="_blank">LinkedIn</a>
-			<a href="https://dribbble.com/deveanova" target="_blank">Dribble</a>
-<!--	<a href="https://www.behance.net/anovasdeve" target="_blank">Behance</a>  -->
-			<a href="https://github.com/anova-s-deve" target="_blank">Github</a>
-			<a href="https://www.instagram.com/deve.anova/" target="_blank">Instagram</a>
-			<a id="email" href="" onclick="myFunction()">Click to copy Email ID</a> <!-- create js to do this interaction -->
-		</nav>
-	</footer>
-	<script>
-		function myFunction() {
-			document.getElementByID("email").innerHTML = "Copied to Clipboard!";
-		}
-	</script>
-</body>
+	</section>
 
-</html>
+		<nav class="grid-2"> <!-- see work and contact -->
+				<div></div>
+				<a class="contacts" href="https://www.linkedin.com/in/anova-sudeep-deve-466615144/" target="_blank">LinkedIn</a>
+				<a class="contacts" href="https://dribbble.com/deveanova" target="_blank">Dribble</a>
+		<!--	<a href="https://www.behance.net/anovasdeve" target="_blank">Behance</a>  -->
+				<a class="contacts" href="https://github.com/anova-s-deve" target="_blank">Github</a>
+				<a class="contacts" href="https://www.instagram.com/deve.anova/" target="_blank">Instagram</a>
+				<div></div>
+				<div></div>
+				<a id="email" href="" onclick="myFunction()">Click to copy Email ID</a> <!-- create js to do this interaction -->
+				<div></div>
+		</nav>
+
+	</body>
+
+	</html>
