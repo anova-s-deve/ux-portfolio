@@ -29,15 +29,17 @@ a:hover, a:active {
 	display: grid;
 	height: 50px;
 	align-content: center;
-	grid-template-columns: 150px 121px auto 400px 150px;
+	grid-template-columns: 150px minmax(121px, 1fr) auto 400px 150px;
 }
 
 #anova {
 	border-bottom: 2px solid currentColor;
+	grid-column: 2;
 }
 
 .nav-menu-items {
 	text-align: right;
+	grid-column: 4;
 }
 
 .nav-item {
