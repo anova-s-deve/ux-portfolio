@@ -97,7 +97,7 @@ a:hover, a:active {
 	grid-column: 3;
 }
 
-img {
+.cs-image {
 	display: block;
 	margin: 25px auto;
 }
@@ -147,6 +147,15 @@ p {
 	line-height: 32px;
 	color: #696969;
 	margin-bottom: 0;
+}
+
+.grid-5 {
+	display: grid;
+	grid-template-columns: 
+		minmax(1em, 1fr)
+		repeat(3, minmax(0, 18.33%))
+		minmax(1em, 1fr)
+	;
 }
 
 button {
