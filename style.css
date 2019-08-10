@@ -55,7 +55,7 @@ a:hover, a:active {
 }
 
 .contacts {
-	grid-column: 2, 3, 4, 5;
+	grid-column: 2 / 6;
 	text-align: center;
 }
 
