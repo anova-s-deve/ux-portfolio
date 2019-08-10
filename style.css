@@ -193,9 +193,10 @@ p {
 	display: grid;
 	grid-template-columns:
 		minmax(1em, 1fr)
-		repeat(3, minmax(0, 28.33%))
+		repeat(3, minmax(0, 25%))
 		minmax(1em, 1fr)
 	;
+	margin: 25px 0 25px 0;
 }
 
 .case-studies {
