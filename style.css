@@ -168,21 +168,21 @@ p {
 }
 
 .designation {
-	font-size: 22px;
-	margin-top: 26px;
+	font-size: 20px;
+	margin-top: 30px;
 	font-weight: 600;	
 }
 
 .time-place {
 	font-family: 'Miriam Libre', sans-serif;
 	font-size: 16px;
-	margin-top: 6px;
+	margin-top: 10px;
 	color: #aeaeae;
 }
 
 .job-description {
 	font-size: 17px;
-	margin-top: 2px;
+	margin-top: 3px;
 	margin-bottom: 10px;
 }
 
