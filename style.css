@@ -33,8 +33,8 @@ a:hover, a:active {
 }
 
 #anova {
-	border-bottom: 2px solid currentColor;
 	grid-column: 2;
+	border-bottom: 2px solid currentColor;
 }
 
 .nav-menu-items {
