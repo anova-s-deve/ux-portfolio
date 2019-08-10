@@ -141,7 +141,7 @@ p {
 #about {
 	text-align: center;
 	font-family: 'Miriam Libre', sans-serif;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .grid-4 {
@@ -196,7 +196,8 @@ p {
 		repeat(3, minmax(0, 25%))
 		minmax(1em, 1fr)
 	;
-	margin: 25px 0 25px 0;
+	margin: 30px 0 25px 0;
+	grid-gap: 25px;
 }
 
 .case-studies {
@@ -209,6 +210,10 @@ p {
 
 .cs-tile-2 {
 	grid-column: 3;
+}
+
+.cs-tile-3 {
+	grid-column: 4;
 }
 
 button {
