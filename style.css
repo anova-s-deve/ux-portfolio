@@ -222,16 +222,17 @@ p {
 }
 
 .download {
-	width: 170px;
-	margin:0 auto;
+	width: 200px;
+	margin: 50px auto 100px 0;
 	display: block;
-	color: #ffffff;
-	background-color: #ff0080;
-	border: none;
+	color: #ff0080;
+	background-color: #ffffff;
+	border: 1px solid #ff0080;
 	padding: 12px 20px;
 	text-align: center;
 	text-decoration: none;
-	font-size: 16px;
+	font-size: 17px;
+	font-family: 'Miriam Libre', sans-serif;
 	border-radius: 4px;
 	-webkit-transition-duration: 0.4s; /* Safari */
 	transition-duration: 0.4s;
