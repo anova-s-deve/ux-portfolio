@@ -89,12 +89,15 @@ a:hover, a:active {
  ;
 }
 
-.experience {
+.experience, .education {
 	grid-column: 2;
+	font-size: 25px;
+	margin-bottom: 0;
 }
 
 .designation, .time-place, .job-description {
 	grid-column: 3;
+	color: #696969;
 }
 
 .cs-image {
@@ -151,7 +154,7 @@ p {
 
 .grid-5 {
 	display: grid;
-	grid-template-columns: 
+	grid-template-columns:
 		minmax(1em, 1fr)
 		repeat(3, minmax(0, 18.33%))
 		minmax(1em, 1fr)
