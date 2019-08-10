@@ -43,7 +43,7 @@ a:hover, a:active {
 }
 
 .nav-item {
-  margin: 0 40px 0 40px;
+  	margin: 0 40px 0 40px;
 }
 
 .grid-2 {
@@ -97,6 +97,26 @@ a:hover, a:active {
 	grid-column: 1 / 4;
 }
 
+.page-title {
+	text-align: center;
+	font-size: 35px;
+	margin-bottom: 25px;
+	margin-top: 110px;
+}
+
+.case-study-tagline {
+	text-align: center;
+	font-size: 25px;
+	font-style: normal;
+	font-variant: all-petite-caps;
+}
+
+#about {
+	text-align: center;
+	font-family: 'Miriam Libre', sans-serif;
+	font-size: 20px;
+}
+
 .grid-4 {
  display: grid;
  grid-template-columns:
@@ -121,21 +141,6 @@ a:hover, a:active {
 .cs-image {
 	display: block;
 	margin: 25px auto;
-}
-
-.case-study-title {
-	text-align: center;
-	text-transform: capitalize;
-	font-size: 35px;
-	margin-bottom: 25px;
-	margin-top: 110px;
-}
-
-.case-study-tagline {
-	text-align: center;
-	font-size: 25px;
-	font-style: normal;
-	font-variant: all-petite-caps;
 }
 
 h2 {
