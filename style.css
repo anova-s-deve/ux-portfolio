@@ -79,6 +79,8 @@ p {
 	height: 100px;
 	grid-row-gap: 20px;
 	align-content: center;
+	border-top: 1px solid #d1d1d1;
+	padding: 10px 0 10px 0;
 }
 
 .contacts-1 {
@@ -202,6 +204,9 @@ p {
 
 .case-studies {
 	grid-column: 2;
+	font-family: 'Miriam Libre', sans-serif;
+	font-size: 18px;
+	color: #696969; 
 }
 
 .cs-tile-1 {
