@@ -25,6 +25,33 @@ a:hover, a:active {
 	color: hotpink;
 }
 
+h2 {
+	margin-top: 110px;
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+
+h3 {
+	font-size: 27px;
+}
+
+h4 {
+	font-size: 25px;
+	color: #696969;
+}
+
+h5 {
+	font-size: 25px;
+	color: #696969;
+}
+
+p {
+	font-size: 16px;
+	line-height: 32px;
+	color: #696969;
+	margin-bottom: 0;
+}
+
 .grid-1 {
 	display: grid;
 	height: 50px;
@@ -138,41 +165,28 @@ a:hover, a:active {
 	color: #696969;
 }
 
-.cs-image {
-	display: block;
-	margin: 25px auto;
-}
-
-h2 {
-	margin-top: 110px;
-	font-size: 30px;
-	margin-bottom: 25px;
-}
-
-h3 {
-	font-size: 27px;
-}
-
-h4 {
-	font-size: 25px;
-	color: #696969;
-}
-
-h5 {
-	font-size: 25px;
-	color: #696969;
+.designation {
+	font-size: 20px;
+	margin-top: 5px;
+	margin-bottom: 10px;	
 }
 
 .time-place {
 	font-family: 'Miriam Libre', sans-serif;
 	font-size: 20px;
+	margin-top: 5px;
+	margin-bottom: 10px;
 }
 
-p {
-	font-size: 16px;
-	line-height: 32px;
-	color: #696969;
-	margin-bottom: 0;
+.job-description {
+	font-size: 18px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.cs-image {
+	display: block;
+	margin: 25px auto;
 }
 
 .grid-5 {
@@ -182,6 +196,18 @@ p {
 		repeat(3, minmax(0, 28.33%))
 		minmax(1em, 1fr)
 	;
+}
+
+.case-studies {
+	grid-column: 2;
+}
+
+.cs-tile-1 {
+	grid-column: 2;
+}
+
+.cs-tile-2 {
+	grid-column: 3;
 }
 
 button {
