@@ -160,6 +160,7 @@ p {
 	grid-column: 2;
 	font-size: 25px;
 	margin-bottom: 0;
+	text-align: center;
 }
 
 .designation, .time-place, .job-description {
@@ -223,7 +224,7 @@ p {
 
 .download {
 	width: 200px;
-	margin: 50px auto 100px 0;
+	margin: 50px auto 100px auto;
 	display: block;
 	color: #ff0080;
 	background-color: #ffffff;
