@@ -1,4 +1,9 @@
 /* external css style file */
+
+* {
+	box-sizing: border-box;
+}
+
 html {
 	overflow: auto;
 }
