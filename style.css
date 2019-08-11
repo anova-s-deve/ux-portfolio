@@ -202,7 +202,7 @@ ol, ul {
 
 .cs-image {
 	display: block;
-	margin: 25px auto;
+	margin: 25px auto 0 auto;
 }
 
 .grid-5 {
@@ -265,4 +265,5 @@ figcaption {
 	font-family: 'Miriam Libre', sans-serif;
 	font-size: 15px;
 	color: #696969;
+	margin-bottom: 25px;
 }
