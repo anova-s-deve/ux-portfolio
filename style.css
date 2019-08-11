@@ -31,7 +31,7 @@ a:hover, a:active {
 }
 
 h2 {
-	margin-top: 110px;
+	margin-top: 70px;
 	font-size: 30px;
 	margin-bottom: 25px;
 }
@@ -150,6 +150,7 @@ ol, ul {
 	font-size: 25px;
 	font-style: normal;
 	font-variant: all-petite-caps;
+	margin-bottom: 60px;
 }
 
 #about {
