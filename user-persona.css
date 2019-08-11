@@ -20,21 +20,27 @@
 .persona-tagline {
     font-style: italic;
     font-weight: 300;
-    font-size: 18px;
-    margin-top: 18px;
+    font-size: 17px;
+    margin-top: 17px;
 }
 
-.persona-desciption {
-    font-size: 18px;
+.persona-description {
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: left;
 }
 
 .persona-goal, .persona-frustration {
     color: #000000;
-    font-weight: 800;
-    letter-spacing: 7%;
-    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 17px;
+    text-align: left;
+    margin-top: 15px;
 }
 
 .persona-gd, .persona-fd {
-    font-size: 18px;
+    font-size: 15px;
+    margin-top: 5px;
+    text-align: left;
 }
