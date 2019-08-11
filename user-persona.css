@@ -9,6 +9,7 @@
         minmax(0, 75%)
         minmax(1em, 1fr)
     ;
+    border-bottom: 1px solid #b6b6b6;
 }
 
 .persona-number {
@@ -55,4 +56,13 @@
     margin-top: 5px;
     text-align: left;
     line-height: 25px;
+}
+
+ul {
+    line-height: 20px;
+}
+
+.img-person {
+    display: block;
+    margin: 0 auto;
 }
