@@ -22,6 +22,10 @@ a {
 	text-decoration: none;
 }
 
+.inline-links {
+	color: blue;
+}
+
 a:visited, a:link {
 	color: #696969;
 }
