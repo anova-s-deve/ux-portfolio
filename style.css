@@ -26,10 +26,6 @@ a {
 	color: blue;
 }
 
-a:visited, a:link {
-	color: #696969;
-}
-
 a:hover, a:active {
 	color: hotpink;
 }
