@@ -1,0 +1,39 @@
+/* external css style file for the user persona section*/
+
+.user-persona {
+    text-align: center;
+    color: #696969;
+}
+
+.persona-number {
+    font-family: 'Miriam Libre', sans-serif;
+    font-size: 22px;
+    color: #878787;
+}
+
+.persona-name {
+    font-family: 'Miriam Libre', sans-serif;
+    font-size: 22px;
+    color: #000000;
+}
+
+.persona-tagline {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.persona-desciption {
+    font-size: 18px;
+}
+
+.persona-goal, .persona-frustrations {
+    color: #000000;
+    font-weight: 800;
+    letter-spacing: 7%;
+    font-size: 18px;
+}
+
+.persona-gd, .persona-fd {
+    font-size: 18px;
+}
