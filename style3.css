@@ -5,3 +5,13 @@
     display: block;
 	margin: 25px auto 0 auto;
 }
+
+.apostrophe {
+    font-family: 'Alex Brush', cursive;
+    font-size: 40px;
+}
+
+.verbatim {
+    font-family: 'Miriam Libre', sans-serif;
+    font-size: 22px;
+}
