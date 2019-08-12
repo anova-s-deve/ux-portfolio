@@ -1,0 +1,7 @@
+/* external css style file */
+
+.v-full-width {
+    grid-column: 1 / 4;
+    display: block;
+	margin: 25px auto 0 auto;
+}
