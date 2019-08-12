@@ -6,6 +6,10 @@
 	margin: 25px auto 0 auto;
 }
 
+.verbatch {
+    text-align: center;
+}
+
 .apostrophe {
     font-family: 'Miriam Libre', sans-serif;
     font-size: 100px;
