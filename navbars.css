@@ -10,11 +10,8 @@ html {
 }
 
 body {
-	font-family: 'Muli', sans-serif;
-}
-
-.main-nav, .contact-nav {
-    display: block;
+    font-family: 'Muli', sans-serif;
+    line-height: 1;
 }
 
 @media screen and (min-width: 768px) {
@@ -26,11 +23,11 @@ body {
 	}
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
 	.bottom-nav {
 		display: flex;
 		flex-direction: row;
-		padding: 1.3rem 15rem 5rem 15rem;
+		padding: 1.3rem 20rem 5rem 20rem;
 		justify-content: space-between;
 	}
 }
@@ -42,7 +39,7 @@ nav {
 }
 
 #anova {
-    border-bottom: 2px solid currentColor;
+    border-bottom: 0.2rem solid currentColor;
 }
 
 .nav-menu-items {
