@@ -1,0 +1,63 @@
+/* external css style file */
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	overflow: auto;
+	font-size: 100%;
+}
+
+body {
+	font-family: 'Muli', sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+	top-nav {
+		display: flex;
+		flex-direction: row;
+		padding: 1.3rem 9rem 0 9rem;
+		justify-content: space-between;
+	}
+}
+
+nav {
+	font-family: 'Miriam Libre', sans-serif;
+	font-size: 1.13rem;
+	color: #696969;
+}
+
+#anova {
+    border-bottom: 2px solid currentColor;
+    display: inline-block;
+}
+
+.nav-menu-items {
+	text-align: right;
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-ul {
+    display: inline-block; 
+}
+
+.nav-ul:link, .nav-ul:visited {
+	color: #696969;
+}
+
+.nav-ul:hover, .nav-ul:active {
+	color: hotpink;
+}
+
+.experiments {
+	margin: 0 40px 0 40px;
+	opacity: 0.5;
+	cursor: not-allowed; 
+}
+
+.experiments:hover {
+	color: #696969;
+	opacity: 0.5;
+}
