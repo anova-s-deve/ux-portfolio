@@ -13,7 +13,7 @@ body {
 	font-family: 'Muli', sans-serif;
 }
 
-.main-nav {
+.main-nav, .contact-nav {
     display: block;
 }
 
