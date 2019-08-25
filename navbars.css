@@ -52,6 +52,7 @@ nav {
 
 .nav-ul {
     display: inline-block; 
+    margin-top: 0;
 }
 
 .nav-ul:link, .nav-ul:visited {
@@ -63,8 +64,7 @@ nav {
 }
 
 .experiments {
-	margin: 0 40px 0 40px;
-	opacity: 0.5;
+	opacity: 0.65;
 	cursor: not-allowed; 
 }
 
