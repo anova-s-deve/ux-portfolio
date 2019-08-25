@@ -48,7 +48,6 @@ nav {
 .nav-menu-items {
 	text-align: right;
     list-style: none;
-    display: inline-block;
 }
 
 .nav-ul {
