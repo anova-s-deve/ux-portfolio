@@ -15,7 +15,7 @@ body {
 
 nav {
 	font-family: 'Miriam Libre', sans-serif;
-	font-size: 1.3rem;
+	font-size: 1.13rem;
 	color: #696969;
 }
 
@@ -90,6 +90,11 @@ ol, ul {
 	margin: 0 40px 0 40px;
 	opacity: 0.5;
 	cursor: not-allowed; 
+}
+
+.nav-item:hover {
+	color: #696969;
+	opacity: 0.5;
 }
 
 .grid-2 {
