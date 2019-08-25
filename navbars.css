@@ -39,6 +39,7 @@ nav {
 }
 
 #anova {
+    padding-bottom: 0.2rem;
     border-bottom: 0.2rem solid currentColor;
 }
 
