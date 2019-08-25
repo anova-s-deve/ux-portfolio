@@ -70,10 +70,10 @@ ol, ul {
 }
 
 .grid-1 {
-	display: grid;
-	height: 50px;
-	align-content: center;
-	grid-template-columns: 150px minmax(121px, 121px) auto 400px 150px;
+	display: flex;
+	flex-direction: row;
+	padding: 1.3rem 7rem 0 7rem;
+	justify-content: space-between;
 }
 
 #anova {
@@ -84,6 +84,7 @@ ol, ul {
 .nav-menu-items {
 	text-align: right;
 	grid-column: 4;
+	list-style: none;
 }
 
 .nav-item {
