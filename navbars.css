@@ -14,7 +14,7 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-	top-nav {
+	.top-nav {
 		display: flex;
 		flex-direction: row;
 		padding: 1.3rem 9rem 0 9rem;
