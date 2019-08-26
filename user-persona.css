@@ -46,23 +46,23 @@
     font-size: 0.95rem;
     margin-top: 2rem;
     text-align: left;
-    line-height: 1.15rem;
+    line-height: 1.25rem;
 }
 
 .persona-goal, .persona-frustration {
     grid-column: 2;
     color: #000000;
     font-weight: 700;
-    font-size: 15px;
-    margin-top: 15px;
+    font-size: 1.15rem;
+    margin-top: 1em;
     font-family: 'Miriam Libre', sans-serif;
 }
 
 .persona-gd, .persona-fd {
     grid-column: 2;
-    font-size: 15px;
-    margin-top: 5px;
+    font-size: 0.95rem;
+    margin-top: 0.2em;
     text-align: left;
-    line-height: 25px;
-    margin-bottom: 25px;
+    line-height: 1.25rem;
+    margin-bottom: 1.9rem;
 }
