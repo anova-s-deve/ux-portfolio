@@ -27,7 +27,7 @@ body {
 	.bottom-nav {
 		display: flex;
 		flex-direction: row;
-		padding: 1.3rem 20rem 5rem 20rem;
+		padding: 2.5rem 20rem 2.5rem 20rem;
 		justify-content: space-between;
 		border-top: 2px dashed #b6b6b6;
 	}
@@ -46,11 +46,11 @@ nav {
 	color: #696969;
 }
 
-#anova:link, #anova:visited {
+#anova:link, #anova:visited, .nav-a:link, .nav-a:visited, .contacts:link, .contacts:visited, #email:link, #email:visited {
 	color: #696969;
 }
 
-#anova:hover, #anova:active {
+#anova:hover, #anova:active, .nav-a:hover, .nav-a:active, .contacts:hover, .contacts:active, #email:link, #email:visited{
 	color: hotpink;
 }
 
@@ -63,14 +63,6 @@ nav {
     display: inline-block; 
 	margin-top: 0;
 	margin-bottom: 0;
-}
-
-.nav-a:link, .nav-a:visited {
-	color: #696969;
-}
-
-.nav-a:hover, .nav-al:active {
-	color: hotpink;
 }
 
 .experiments {
