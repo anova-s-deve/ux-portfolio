@@ -77,8 +77,14 @@
 }
 
 .heading-three {
-	font-size: 27px;
+	font-size: 1.7rem;
 	font-family: 'Miriam Libre', sans-serif; 
+}
+
+.heading-four {
+    font-size: 1.4rem;
+    font-family: 'Miriam Libre', sans-serif;
+    color: #848484;
 }
 
 a {
@@ -95,11 +101,6 @@ a:link, a:visited {
 
 a:hover, a:active {
 	color: hotpink;
-}
-
-h4 {
-	font-size: 25px;
-	color: #696969;
 }
 
 h5 {
