@@ -43,10 +43,10 @@
 
 .persona-description {
     grid-column: 2;
-    font-size: 15px;
-    margin-top: 25px;
+    font-size: 0.95rem;
+    margin-top: 2rem;
     text-align: left;
-    line-height: 20px;
+    line-height: 1.15rem;
 }
 
 .persona-goal, .persona-frustration {
