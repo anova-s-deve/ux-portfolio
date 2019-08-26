@@ -74,7 +74,11 @@
 
 .bold {
 	color: #000000;
+}
 
+.heading-three {
+	font-size: 27px;
+	font-family: 'Miriam Libre', sans-serif; 
 }
 
 a {
@@ -91,10 +95,6 @@ a:link, a:visited {
 
 a:hover, a:active {
 	color: hotpink;
-}
-
-h3 {
-	font-size: 27px;
 }
 
 h4 {
