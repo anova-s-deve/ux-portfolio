@@ -84,7 +84,8 @@
 .heading-four {
     font-size: 1.4rem;
     font-family: 'Miriam Libre', sans-serif;
-    color: #848484;
+	color: #848484;
+	margin-bottom: 0.4em;
 }
 
 .inline-links {
@@ -97,6 +98,11 @@
 
 .inline-links:hover, .inline-links:active {
 	color: hotpink;
+}
+
+.num-list {
+	color: #696969;
+	line-height: 2rem;
 }
 
 h5 {
