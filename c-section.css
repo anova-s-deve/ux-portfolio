@@ -105,6 +105,11 @@
 	line-height: 2rem;
 }
 
+.list-item {
+	width: 30rem;
+	margin: 0 auto;
+}
+
 h5 {
 	font-size: 18px;
 	color: #696969;
