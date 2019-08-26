@@ -61,8 +61,8 @@
 .persona-gd, .persona-fd {
     grid-column: 2;
     font-size: 0.95rem;
-    margin-top: 0.2em;
+    margin-top: 0.5em;
     text-align: left;
-    line-height: 1.25rem;
+    line-height: 1.3rem;
     margin-bottom: 1.9rem;
 }
