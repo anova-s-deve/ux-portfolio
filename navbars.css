@@ -40,7 +40,17 @@ nav {
 
 #anova {
     padding-bottom: 0.2rem;
-    border-bottom: 0.2rem solid currentColor;
+	border-bottom: 0.2rem solid currentColor;
+	text-decoration: none;
+	color: #696969;
+}
+
+#anova:link, #anova:visited {
+	color: #696969;
+}
+
+#anova:hover, #anova:active {
+	color: hotpink;
 }
 
 .nav-menu-items {
@@ -54,17 +64,18 @@ nav {
 	margin-bottom: 0;
 }
 
-.nav-ul:link, .nav-ul:visited {
+.nav-a:link, .nav-a:visited {
 	color: #696969;
 }
 
-.nav-ul:hover, .nav-ul:active {
+.nav-a:hover, .nav-al:active {
 	color: hotpink;
 }
 
 .experiments {
 	opacity: 0.65;
-	cursor: not-allowed; 
+	cursor: not-allowed;
+	color: #696969; 
 }
 
 .experiments:hover {
