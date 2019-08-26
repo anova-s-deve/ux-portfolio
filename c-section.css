@@ -103,6 +103,7 @@
 .num-list {
 	color: #696969;
 	line-height: 2rem;
+	padding-inline-start: 0;
 }
 
 .list-item {
