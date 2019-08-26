@@ -37,12 +37,12 @@ nav {
 	font-family: 'Miriam Libre', sans-serif;
 	font-size: 1.13rem;
 	color: #696969;
+	text-decoration: none;
 }
 
 #anova {
     padding-bottom: 0.2rem;
 	border-bottom: 0.2rem solid currentColor;
-	text-decoration: none;
 	color: #696969;
 }
 
@@ -50,7 +50,7 @@ nav {
 	color: #696969;
 }
 
-#anova:hover, #anova:active, .nav-a:hover, .nav-a:active, .contacts:hover, .contacts:active, #email:link, #email:visited{
+#anova:hover, #anova:active, .nav-a:hover, .nav-a:active, .contacts:hover, .contacts:active, #email:hover, #email:active{
 	color: hotpink;
 }
 
