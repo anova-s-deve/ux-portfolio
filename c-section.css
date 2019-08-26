@@ -82,6 +82,7 @@
     font-family: 'Miriam Libre', sans-serif;
 	color: #848484;
 	margin-bottom: 0.4em;
+	margin-top: 2.5em;
 }
 
 .inline-links {
@@ -119,4 +120,8 @@
 	font-family: 'Miriam Libre', sans-serif;
 }
 
+.bold-miriam {
+	font-family: 'Miriam Libre', sans-serif;
+	color: black;
+}
 
