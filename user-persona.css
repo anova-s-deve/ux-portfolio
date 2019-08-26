@@ -6,32 +6,39 @@
     display: grid;
     grid-template-columns: 
         minmax(1em, 1fr)
-        minmax(0, 75%)
+        minmax(0, 55%)
         minmax(1em, 1fr)
     ;
-    border-bottom: 1px solid #b6b6b6;
+    border-bottom: 1px dashed #b6b6b6;
+}
+
+.img-person {
+    display: block;
+    margin: 0 auto 1.4rem auto;
 }
 
 .persona-number {
     grid-column: 2;
     font-family: 'Miriam Libre', sans-serif;
-    font-size: 20px;
+    font-size: 1.4rem;
     color: #b6b6b6;
+    margin-bottom: 0.3em;
 }
 
 .persona-name {
     grid-column: 2;
     font-family: 'Miriam Libre', sans-serif;
-    font-size: 20px;
+    font-size: 1.3rem;
     color: #000000;
     font-weight: 600;
+    margin-bottom: 0.3em;
 }
 
 .persona-tagline {
     grid-column: 2;
-    font-style: italic;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 1.1rem;
+    color: grey;
 }
 
 .persona-description {
@@ -39,6 +46,7 @@
     font-size: 15px;
     margin-top: 25px;
     text-align: left;
+    line-height: 20px;
 }
 
 .persona-goal, .persona-frustration {
@@ -57,13 +65,4 @@
     text-align: left;
     line-height: 25px;
     margin-bottom: 25px;
-}
-
-ul {
-    line-height: 20px;
-}
-
-.img-person {
-    display: block;
-    margin: 0 auto;
 }
