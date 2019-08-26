@@ -52,11 +52,6 @@
 	margin: 1.5rem auto 0 auto;
 }
 
-.cs-image {
-	display: block;
-	margin: 4rem auto 0 auto;
-}
-
 .fig-tit {
 	display: block;
 	text-align: center;
@@ -109,6 +104,11 @@
 .list-item {
 	width: 30rem;
 	margin: 0 auto;
+}
+
+.cs-image {
+	display: block;
+	margin: 1.5rem auto 0 auto;
 }
 
 h5 {
