@@ -6,7 +6,7 @@
     display: grid;
     grid-template-columns: 
         minmax(1em, 1fr)
-        minmax(0, 55%)
+        minmax(0, 75%)
         minmax(1em, 1fr)
     ;
     border-bottom: 1px dashed #b6b6b6;
