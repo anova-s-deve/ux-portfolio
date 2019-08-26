@@ -1,29 +1,21 @@
 /* external css style file */
 
-.v-full-width {
-    grid-column: 1 / 4;
-    display: block;
-	margin: 25px auto 0 auto;
-}
-
 .verbatch {
     text-align: center;
-}
-
-.apostrophe {
-    font-family: 'Miriam Libre', sans-serif;
-    font-size: 40px;
-}
-
-.verbatim {
-    font-family: 'Miriam Libre', sans-serif;
-    font-size: 18px;
-    margin: 1em 1.5em 1em 1.5em;
+    margin-bottom: 4.5rem;
 }
 
 .title {
     font-family: 'Miriam Libre', sans-serif;
     font-weight: 700;
-    font-size: 22px;
-    margin: 40px auto 10px auto; 
+    font-size: 1.4rem;
+    margin: 0.5em auto 0.5em auto; 
+    color: #434343;
+}
+
+.verbatim {
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+    font-size: 1rem;
+    margin: 0.7em auto 0.7em auto;
 }
