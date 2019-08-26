@@ -87,19 +87,15 @@
     color: #848484;
 }
 
-a {
+.inline-links {
 	text-decoration: none;
 }
 
-.inline-links {
-	color: #696969;
+.inline-links:link, .inline-links:visited {
+	color: blue;
 }
 
-a:link, a:visited {
-	color: #696969;
-}
-
-a:hover, a:active {
+.inline-links:hover, .inline-links:active {
 	color: hotpink;
 }
 
