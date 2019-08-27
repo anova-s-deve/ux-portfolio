@@ -51,6 +51,7 @@
     text-align: center;
     color: #ff0080;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .download:hover {
