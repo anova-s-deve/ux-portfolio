@@ -3,7 +3,16 @@
 #about {
 	text-align: center;
 	font-family: 'Miriam Libre', sans-serif;
-	font-size: 18px;
+	font-size: 1.2rem;
+	margin-top: 0.5em;
+}
+
+#about:link, #about:visited {
+	color: #696969;
+}
+
+#about:hover, #about:active {
+	color: hotpink;
 }
 
 .case-studies {

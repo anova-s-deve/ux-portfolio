@@ -61,8 +61,8 @@ body {
 		repeat(3, minmax(0, 25%))
 		minmax(1em, 1fr)
 	;
-	margin: 30px 0 25px 0;
-	grid-gap: 25px;
+	margin: 5rem 0 3rem 0;
+	grid-gap: 1.8rem;
 }
 
 .full-width {
