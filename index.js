@@ -1,7 +1,7 @@
 
 function clipboard() {
-	var emailid = "deveanova@gmail.com";
-	emailid.selectText();
+	var copyText = document.getElementById("emailid");
+	copyText.select();
 	document.execCommand("copy");
 	alert("Copied:" + emailid.value);
 }
