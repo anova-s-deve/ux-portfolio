@@ -69,6 +69,11 @@ body {
 	grid-column: 1 / 4;
 }
 
+.cs-image {
+	display: block;
+	margin: 1.5rem auto 0 auto;
+}
+
 .cartoon {
 	display: block;
 	margin: 1.5rem auto 0 auto;
