@@ -1,19 +1,5 @@
 /* external css style file */
 
-* {
-	box-sizing: border-box;
-}
-
-html {
-	overflow: auto;
-	font-size: 100%;
-}
-
-body {
-    font-family: 'Muli', sans-serif;
-    line-height: 1;
-}
-
 @media screen and (min-width: 768px) {
 	.top-nav {
 		display: flex;

@@ -6,17 +6,6 @@
 	font-size: 18px;
 }
 
-.grid-5 {
-	display: grid;
-	grid-template-columns:
-		minmax(1em, 1fr)
-		repeat(3, minmax(0, 25%))
-		minmax(1em, 1fr)
-	;
-	margin: 30px 0 25px 0;
-	grid-gap: 25px;
-}
-
 .case-studies {
 	grid-column: 2;
 	font-family: 'Miriam Libre', sans-serif;
