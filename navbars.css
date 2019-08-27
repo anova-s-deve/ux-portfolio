@@ -44,6 +44,7 @@ nav {
     padding-bottom: 0.2rem;
 	border-bottom: 0.2rem solid currentColor;
 	color: #696969;
+	text-decoration: none;
 }
 
 #anova:link, #anova:visited, .nav-a:link, .nav-a:visited, .contacts:link, .contacts:visited, #email:link, #email:visited {
