@@ -1,10 +1,11 @@
 /* external css style file */
 
 .experience, .education {
-	grid-column: 2;
-	font-size: 25px;
-	margin-bottom: 0;
-	text-align: center;
+    grid-column: 2;
+    font-size: 1.7rem;
+    margin-block-start: 0.85em;
+    margin-block-end: 0.15em;
+    text-align: center;
 }
 
 .designation, .time-place, .job-description {
@@ -13,40 +14,43 @@
 }
 
 .designation {
-	font-size: 20px;
-	margin-top: 30px;
-	font-weight: 600;	
+    font-size: 1.3rem;
+    margin-top: 1.1em;
+    font-weight: 600;
+    color: #ff008d;
+    line-height: 1.5em;
 }
 
 .time-place {
-	font-family: 'Miriam Libre', sans-serif;
-	font-size: 16px;
-	margin-top: 10px;
-	color: #aeaeae;
+    font-family: 'Miriam Libre', sans-serif;
+    font-size: 1.08rem;
+    margin-top: 1em;
+    color: #aeaeae;
+    margin-bottom: 1em;
 }
 
 .job-description {
-	font-size: 17px;
-	margin-top: 3px;
-	margin-bottom: 10px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-block-start: 0;
+    margin-block-end: 1.3em;
 }
 
 .download {
-	width: 200px;
-	margin: 50px auto 100px auto;
-	display: block;
-	color: #ff0080;
-	background-color: #ffffff;
-	border: 1px solid #ff0080;
-	padding: 12px 20px;
-	text-align: center;
-	text-decoration: none;
-	font-size: 17px;
-	font-family: 'Miriam Libre', sans-serif;
-	border-radius: 4px;
-	-webkit-transition-duration: 0.4s; /* Safari */
-	transition-duration: 0.4s;
-	grid-column: 3;
+    width: 15rem;
+    margin: 3em auto 6em auto;
+    display: block;
+    color: #ff0080;
+    background-color: #ffffff;
+    border: 1px solid #ff0080;
+    padding: 0.9em 0.5em;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.15rem;
+    font-family: 'Miriam Libre', sans-serif;
+    border-radius: 2.5em;
+    transition-duration: 0.4s;
+    grid-column: 3;
 }
 
 .download:hover {

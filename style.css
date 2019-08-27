@@ -38,9 +38,10 @@ body {
 
 .text {
 	font-size: 1rem;
-	line-height: 2rem;
+	line-height: 1.9rem;
 	color: #696969;
-	margin-bottom: 0;
+    margin-bottom: 0;
+    margin-block-start: 1.3em;
 }
 
 .grid-4 {
