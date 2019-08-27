@@ -1,3 +1,7 @@
-function copy-email() {
-	document.getElementByID('email').innerHTML = "Copied to Clipboard!";
+
+function clipboard() {
+	var emailid = "deveanova@gmail.com";
+	emailid.select();
+	document.execCommand("copy");
+	alert("Copied:" + emailid.value);
 }
