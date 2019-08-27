@@ -21,15 +21,6 @@
 	margin-bottom: 0;
 }
 
-.full-width {
-	grid-column: 1 / 4;
-}
-
-.cartoon {
-	display: block;
-	margin: 1.5rem auto 0 auto;
-}
-
 .fig-tit {
 	display: block;
 	text-align: center;
