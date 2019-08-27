@@ -6,16 +6,6 @@
 	font-size: 18px;
 }
 
-.grid-4 {
- display: grid;
- grid-template-columns:
-		minmax(1em, 1fr)
-		minmax(0, 27.5%)
-		minmax(0, 27.5%)
-		minmax(1em, 1fr)
- ;
-}
-
 .grid-5 {
 	display: grid;
 	grid-template-columns:
