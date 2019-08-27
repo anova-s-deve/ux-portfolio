@@ -5,6 +5,7 @@
 	font-family: 'Miriam Libre', sans-serif;
 	font-size: 1.2rem;
 	margin-top: 0.5em;
+	display: block;
 }
 
 #about:link, #about:visited {
