@@ -87,3 +87,9 @@
 .list-ia {
     padding-inline-start: 0;
 }
+
+.list-item-takeaway {
+	width: 45rem;
+	margin: 0 auto 2em auto;
+
+}
