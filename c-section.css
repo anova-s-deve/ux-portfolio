@@ -105,8 +105,19 @@
 
 }
 
+.list-item-takeaway-last {
+	width: 45rem;
+	margin: 0 auto 0 auto;
+
+}
+
 .tools-u {
 	display: block;
 	text-align: center;
 }
 
+.tools-u-l {
+	display: block;
+	text-align: center;
+	margin-bottom: 5em;
+}
