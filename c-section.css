@@ -114,12 +114,15 @@
 .tools-u {
 	display: block;
 	text-align: center;
+	color: #696969;
+	margin-top: 2rem;
 }
 
 .tools-u-l {
 	display: block;
 	text-align: center;
 	margin-bottom: 5em;
+	color: #696969;
 }
 
 .emoji-end {
