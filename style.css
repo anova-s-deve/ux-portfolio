@@ -82,7 +82,7 @@ body {
 .text-block {
 	text-align: center;
 	margin-bottom: 2rem;
-	margin-top: 6rem;
+	margin-top: 0;
 	font-family: 'Miriam Libre', sans-serif;
 	color: #5d5d5d;
 }
