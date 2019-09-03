@@ -79,3 +79,11 @@
     line-height: 1.3rem;
     margin-bottom: 1.9rem;
 }
+
+.scene {
+	font-size: 1rem;
+	line-height: 1.9rem;
+	color: #696969;
+    margin-bottom: 1.5em;
+    margin-block-start: 0;
+}
