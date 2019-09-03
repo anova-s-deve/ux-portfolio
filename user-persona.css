@@ -12,6 +12,19 @@
     border-bottom: 1px dashed #b6b6b6;
 }
 
+.user-persona-l {
+    text-align: center;
+    color: #696969;
+    display: grid;
+    grid-template-columns: 
+        minmax(1em, 1fr)
+        minmax(0, 75%)
+        minmax(1em, 1fr)
+    ;
+    border-bottom: 1px dashed #b6b6b6;
+    margin-bottom: 2.2rem;
+}
+
 .img-person {
     display: block;
     margin: 0 auto 1.4rem auto;

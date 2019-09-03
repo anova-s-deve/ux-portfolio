@@ -76,7 +76,7 @@ body {
 
 .cartoon {
 	display: block;
-	margin: 1.5rem auto 0 auto;
+	margin: 2.5rem auto 0 auto;
 }
 
 .text-block {
@@ -85,4 +85,9 @@ body {
 	margin-top: 6rem;
 	font-family: 'Miriam Libre', sans-serif;
 	color: #5d5d5d;
+}
+
+.verb-i {
+	display: block;
+	margin: 0 auto 0 auto;
 }
