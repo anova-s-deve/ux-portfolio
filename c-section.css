@@ -37,14 +37,12 @@
 
 .heading-three {
 	font-size: 1.7rem;
-	font-family: 'Miriam Libre', sans-serif; 
 	margin-block-start: 5.5rem;
 }
 
 .heading-four {
     font-size: 1.4rem;
-    font-family: 'Miriam Libre', sans-serif;
-	color: #848484;
+	color: #5d5d5d;
 	margin-bottom: 0.4em;
 	margin-top: 2.5em;
 }
@@ -75,8 +73,7 @@
 
 .heading-five {
 	font-size: 1.2rem;
-	color: #696969;
-	font-family: 'Miriam Libre', sans-serif;
+	color: #5d5d5d;
 }
 
 .bold-miriam {
