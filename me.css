@@ -61,3 +61,11 @@
 	/*box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);*/
 }
 
+.text-dropemail {
+	font-size: 1rem;
+	line-height: 1.9rem;
+	color: #696969;
+    margin-bottom: 3rem;
+    margin-block-start: 1.3em;
+    border: 2px solid rgb(73, 73, 73);
+}
