@@ -13,7 +13,7 @@
 	.bottom-nav {
 		display: flex;
 		flex-direction: row;
-		padding: 2.5rem 20rem 2.5rem 20rem;
+		padding: 2.5rem 30rem 2.5rem 30rem;
 		justify-content: space-between;
 		border-top: 1px dashed #b6b6b6;
 	}
