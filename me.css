@@ -64,8 +64,9 @@
 .text-dropemail {
 	font-size: 1rem;
 	line-height: 1.9rem;
-	color: #696969;
-    margin-bottom: 3rem;
+    color: #696969;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
     margin-block-start: 1.3em;
-    border: 2px solid rgb(73, 73, 73);
+    border-bottom: 2px solid rgb(73, 73, 73);
 }
