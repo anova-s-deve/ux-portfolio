@@ -30,8 +30,10 @@
 
 .cs-tile-2 {
 	grid-column: 3;
+	cursor: not-allowed;
 }
 
 .cs-tile-3 {
 	grid-column: 4;
+	cursor: not-allowed;
 }
