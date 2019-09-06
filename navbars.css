@@ -108,7 +108,7 @@ nav {
 }
 
 @media screen and (max-width: 1060px) {
-	.top-nav {
+	.top-nav, #anova-500, .nav-menu-items-500, .nav-a-500, .experiments-500 {
 		display: none;
 	}
 	#anova-1060 {
@@ -137,7 +137,7 @@ nav {
 }
 
 @media screen and (max-width: 500px) {
-	.top-nav, .nav-a, .experiments, .nav-menu-items-1060, #anova-1060 {
+	.top-nav, .nav-a-1060, .experiments-1060, .nav-menu-items-1060, #anova-1060 {
 		display: none;
 	}
 	#anova-500 {
