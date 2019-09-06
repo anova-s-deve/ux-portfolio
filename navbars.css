@@ -130,6 +130,7 @@ nav {
 		color: #696969;
 	}
 	.nav-a-1060, .experiments-1060 {
+		display: flex;
 		text-decoration: none;
 		text-align: center;
 		margin: 2rem;
@@ -159,6 +160,7 @@ nav {
 		color: #696969;
 	}
 	.nav-a-500, .experiments-500 {
+		display: block;
 		text-decoration: none;
 		text-align: center;
 	}
