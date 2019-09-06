@@ -71,6 +71,10 @@ nav {
 	display: none;
 }
 
+#anova-1060, .nav-menu-items-1060, .nav-ul-1060 {
+	display: none;
+}
+
 @media screen and (max-width: 900px) {
 	.bottom-nav {
 		display: none;
@@ -108,16 +112,25 @@ nav {
 		display: none;
 	}
 	#anova-1060 {
+		font-family: 'Miriam Libre', sans-serif;
+		font-size: 1.13rem;
+		color: #696969;
+		text-decoration: none;
 		display: block;
 		padding-bottom: 0.2rem;
 		border-bottom: 0.2rem solid currentColor;
-		color: #696969;
-		text-decoration: none;
 		text-align: center;
 	}
 	.nav-menu-items-1060 {
-		text-align: center;
+		display: flex;
+		flex-direction: row;
+		padding: 1.3rem 9rem 0 9rem;
+		justify-content: space-between;
 		list-style: none;
+		font-family: 'Miriam Libre', sans-serif;
+		font-size: 1.13rem;
+		color: #696969;
+		text-decoration: none;
 	}
 	.nav-ul-1060 {
 		display: inline-block; 
