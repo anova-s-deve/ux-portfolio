@@ -164,7 +164,7 @@
 	max-width: 35%;
 }
 
-.heuwalk{
+.heuwalk {
 	display: block;
 	margin: 1.5rem auto 0 auto;
 	max-width: 85%;
@@ -210,4 +210,22 @@
 	display: block;
 	margin: 1.5rem auto 0 auto;
 	max-width: 80%;
+}
+
+@media screen and (max-width: 1160px) { 
+	.c-image, .cs-image, .dendro-img, .sketch-w, .feaprio, .ia-img, .tagimg, .heuwalk, .usmatrix, .feamatrix, .romap {
+		display: block;
+		margin: 1.5rem auto 0 auto;
+		max-width: 100%;
+	}
+	.cartoon {
+		display: block;
+		margin: 2.5rem auto 0 auto;
+		max-width: 100%;
+	}
+	.img-person {
+		display: block;
+		margin: 0 auto 1.4rem auto;
+		max-width: 100%;
+	}
 }
