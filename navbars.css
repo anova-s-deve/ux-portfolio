@@ -64,10 +64,14 @@ nav {
 }
 
 .bottom-nav-900 {
-	visibility: hidden;
+	display: none;
 }
 
 @media screen and (max-width: 900px) {
+	.bottom-nav {
+		display: none;
+	}
+
 	.bottom-nav-900 {
 		display: flex;
 		flex-direction: row;
