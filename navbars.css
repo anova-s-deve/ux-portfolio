@@ -10,9 +10,9 @@
 .bottom-nav {
 	display: flex;
 	flex-direction: row;
-	padding: 2.5rem 30rem 2.5rem 30rem;
+	padding: 2.5rem 30% 2.5rem 30%;
 	justify-content: space-between;
-	border-top: 1px dashed #b6b6b6;
+	border-top: 1px solid #dfdfdf;
 }
 
 nav {
@@ -61,4 +61,18 @@ nav {
 
 .contacts, #email {
 	text-decoration: none;
+}
+
+.bottom-nav-900 {
+	display: hidden;
+}
+
+@media screen and (max-width: 900px) {
+	.bottom-nav-900 {
+		display: flex;
+		flex-direction: row;
+		padding: 2.5rem 30% 2.5rem 30%;
+		justify-content: space-between;
+		border-top: 1px dashed #b6b6b6;
+	}
 }
