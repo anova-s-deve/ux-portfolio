@@ -120,6 +120,7 @@ nav {
 		padding-bottom: 0.2rem;
 		border-bottom: 0.2rem solid currentColor;
 		text-align: center;
+		margin-top: 1.5rem;
 	}
 	.nav-menu-items-1060 {
 		display: flex;
@@ -131,11 +132,5 @@ nav {
 		font-size: 1.13rem;
 		color: #696969;
 		text-decoration: none;
-	}
-	.nav-ul-1060 {
-		display: inline-block; 
-		margin-top: 0;
-		margin-bottom: 0;
-		padding-inline-start: 0;
 	}
 }
