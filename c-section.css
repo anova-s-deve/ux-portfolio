@@ -95,20 +95,14 @@
 	font-size: 1.1rem;
 }
 
-.list-ia {
-    padding-inline-start: 0;
-}
-
 .list-item-takeaway {
 	width: 45rem;
 	margin: 0 auto 2em auto;
-
 }
 
 .list-item-takeaway-last {
 	width: 45rem;
 	margin: 0 auto 0 auto;
-
 }
 
 .tools-u {
