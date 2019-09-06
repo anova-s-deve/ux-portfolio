@@ -29,11 +29,19 @@ nav {
 	text-decoration: none;
 }
 
-#anova:link, #anova:visited, .nav-a:link, .nav-a:visited, .contacts:link, .contacts:visited, #email:link, #email:visited {
+#anova:link, #anova:visited, .nav-a:link, .nav-a:visited, .contacts:link, .contacts:visited, #email:link, #email:visited,
+#anova-1060:link, .nav-menu-items-1060:link, .nav-a-1060:link, .experiments-1060:link, 
+#anova-1060:visited, .nav-menu-items-1060:visited, .nav-a-1060:visited, .experiments-1060:visited,
+#anova-500:link, .nav-menu-items-500:link, .nav-a-500:link, .experiments-500:link, 
+#anova-500:visited, .nav-menu-items-500:visited, .nav-a-500:visited, .experiments-500:visited {
 	color: #696969;
 }
 
-#anova:hover, #anova:active, .nav-a:hover, .nav-a:active, .contacts:hover, .contacts:active, #email:hover, #email:active{
+#anova:hover, #anova:active, .nav-a:hover, .nav-a:active, .contacts:hover, .contacts:active, #email:hover, #email:active,
+#anova-1060:hover, .nav-menu-items-1060:hover, .nav-a-1060:hover,
+#anova-1060:active, .nav-menu-items-1060:active, .nav-a-1060:active, .experiments-1060:active,
+#anova-500:hover, .nav-menu-items-500:hover, .nav-a-500:hover, 
+#anova-500:active, .nav-menu-items-500:active, .nav-a-500:active, .experiments-500:active{
 	color: hotpink;
 }
 
@@ -48,13 +56,13 @@ nav {
 	margin-bottom: 0;
 }
 
-.experiments {
+.experiments, .experiments-1060, .experiments-500 {
 	opacity: 0.65;
 	cursor: not-allowed;
 	color: #696969; 
 }
 
-.experiments:hover {
+.experiments:hover, .experiments-1060:hover, .experiments-500:hover {
 	color: #696969;
 	opacity: 0.5;
 }
