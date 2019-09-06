@@ -135,3 +135,31 @@ nav {
 		margin: 2rem;
 	}
 }
+
+@media screen and (max-width: 500px) {
+	.top-nav, .nav-a, .experiments, .nav-menu-items-1060, #anova-1060 {
+		display: none;
+	}
+	#anova-500 {
+		font-family: 'Miriam Libre', sans-serif;
+		font-size: 1.13rem;
+		color: #696969;
+		text-decoration: none;
+		display: block;
+		padding-bottom: 0.2rem;
+		text-align: center;
+		margin-top: 1.5rem;
+	}
+	.nav-menu-items-500 {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		font-family: 'Miriam Libre', sans-serif;
+		font-size: 1.13rem;
+		color: #696969;
+	}
+	.nav-a-500, .experiments-500 {
+		text-decoration: none;
+		text-align: center;
+	}
+}
