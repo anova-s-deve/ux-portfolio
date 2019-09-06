@@ -104,6 +104,9 @@ nav {
 }
 
 @media screen and (max-width: 1060px) {
+	.top-nav {
+		display: none;
+	}
 	#anova {
 		display: flex;
 		flex-direction: row;
