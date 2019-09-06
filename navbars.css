@@ -107,18 +107,5 @@ nav {
 	.top-nav {
 		display: none;
 	}
-	#anova {
-		display: flex;
-		flex-direction: row;
-		padding: 1.3rem 9rem 0 9rem;
-		justify-content: center;
-	}
-
-	.nav-menu-items {
-		display: flex;
-		flex-direction: row;
-		padding: 1.3rem 9rem 0 9rem;
-		justify-content: space-between;
-	}
-
+	
 }
