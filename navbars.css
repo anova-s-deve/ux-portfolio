@@ -1,22 +1,18 @@
 /* external css style file */
 
-@media screen and (min-width: 768px) {
-	.top-nav {
-		display: flex;
-		flex-direction: row;
-		padding: 1.3rem 9rem 0 9rem;
-		justify-content: space-between;
-	}
+.top-nav {
+	display: flex;
+	flex-direction: row;
+	padding: 1.3rem 9rem 0 9rem;
+	justify-content: space-between;
 }
 
-@media screen and (min-width: 1200px) {
-	.bottom-nav {
-		display: flex;
-		flex-direction: row;
-		padding: 2.5rem 30rem 2.5rem 30rem;
-		justify-content: space-between;
-		border-top: 1px dashed #b6b6b6;
-	}
+.bottom-nav {
+	display: flex;
+	flex-direction: row;
+	padding: 2.5rem 30rem 2.5rem 30rem;
+	justify-content: space-between;
+	border-top: 1px dashed #b6b6b6;
 }
 
 nav {
