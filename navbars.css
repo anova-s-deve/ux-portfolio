@@ -64,7 +64,7 @@ nav {
 }
 
 .bottom-nav-900 {
-	display: hidden;
+	visibility: hidden;
 }
 
 @media screen and (max-width: 900px) {
