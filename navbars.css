@@ -107,5 +107,21 @@ nav {
 	.top-nav {
 		display: none;
 	}
-	
+	#anova-1060 {
+		display: block;
+		padding-bottom: 0.2rem;
+		border-bottom: 0.2rem solid currentColor;
+		color: #696969;
+		text-decoration: none;
+		text-align: center;
+	}
+	.nav-menu-items-1060 {
+		text-align: center;
+		list-style: none;
+	}
+	.nav-ul-1060 {
+		display: inline-block; 
+		margin-top: 0;
+		margin-bottom: 0;
+	}
 }
