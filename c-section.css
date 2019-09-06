@@ -133,3 +133,27 @@
 	margin-top: 7rem;
 	line-height: 1.5em;
 }
+
+.cartoon {
+	display: block;
+	margin: 2.5rem auto 0 auto;
+	max-width: 80%;
+}
+
+.romap {
+	display: block;
+	margin: 1.5rem auto 0 auto;
+	max-width: 60%;
+}
+
+.feamatrix {
+	display: block;
+	margin: 1.5rem auto 0 auto;
+	max-width: 75%;
+}
+
+.usmatrix {
+	display: block;
+	margin: 1.5rem auto 0 auto;
+	max-width: 70%;
+}
