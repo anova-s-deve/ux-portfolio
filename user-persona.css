@@ -1,35 +1,5 @@
 /* external css style file for the user persona section*/
 
-.user-persona {
-
-    color: #696969;
-    display: grid;
-    grid-template-columns: 
-        minmax(1em, 1fr)
-        minmax(0, 75%)
-        minmax(1em, 1fr)
-    ;
-    border-bottom: 1px dashed #b6b6b6;
-}
-
-.user-persona-l {
-
-    color: #696969;
-    display: grid;
-    grid-template-columns: 
-        minmax(1em, 1fr)
-        minmax(0, 75%)
-        minmax(1em, 1fr)
-    ;
-    border-bottom: 1px dashed #b6b6b6;
-    margin-bottom: 2.2rem;
-}
-
-.img-person {
-    display: block;
-    margin: 0 auto 1.4rem auto;
-}
-
 .persona-number {
     text-align: center;
     grid-column: 2;
@@ -58,6 +28,7 @@
 }
 
 .persona-description {
+    color: #696969;
     grid-column: 2;
     font-size: 0.95rem;
     margin-top: 2rem;
@@ -76,12 +47,25 @@
 }
 
 .persona-gd {
+    color: #696969;
     grid-column: 2;
     font-size: 0.95rem;
     margin-top: 0.5em;
     text-align: left;
     line-height: 1.3rem;
     margin-bottom: 1.9rem;
+    border-bottom: 1px dashed #b6b6b6;
+}
+
+.persona-gd-l {
+    color: #696969;
+    grid-column: 2;
+    font-size: 0.95rem;
+    margin-top: 0.5em;
+    text-align: left;
+    line-height: 1.3rem;
+    margin-bottom: 2.2rem;
+    border-bottom: 1px dashed #b6b6b6;
 }
 
 .scene {
