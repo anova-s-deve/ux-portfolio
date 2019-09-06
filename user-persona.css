@@ -1,7 +1,7 @@
 /* external css style file for the user persona section*/
 
 .user-persona {
-    text-align: center;
+
     color: #696969;
     display: grid;
     grid-template-columns: 
@@ -13,7 +13,7 @@
 }
 
 .user-persona-l {
-    text-align: center;
+
     color: #696969;
     display: grid;
     grid-template-columns: 
@@ -31,6 +31,7 @@
 }
 
 .persona-number {
+    text-align: center;
     grid-column: 2;
     font-family: 'Miriam Libre', sans-serif;
     font-size: 1.4rem;
@@ -39,6 +40,7 @@
 }
 
 .persona-name {
+    text-align: center;
     grid-column: 2;
     font-family: 'Miriam Libre', sans-serif;
     font-size: 1.3rem;
@@ -48,6 +50,7 @@
 }
 
 .persona-tagline {
+    text-align: center;
     grid-column: 2;
     font-weight: 300;
     font-size: 1.1rem;
@@ -62,7 +65,8 @@
     line-height: 1.25rem;
 }
 
-.persona-goal, .persona-frustration {
+.persona-goal, {
+    text-align: center;
     grid-column: 2;
     color: #000000;
     font-weight: 700;
@@ -71,7 +75,7 @@
     font-family: 'Miriam Libre', sans-serif;
 }
 
-.persona-gd, .persona-fd {
+.persona-gd, {
     grid-column: 2;
     font-size: 0.95rem;
     margin-top: 0.5em;
