@@ -155,9 +155,10 @@ nav {
 		color: #696969;
 		text-decoration: none;
 		display: block;
-		padding-bottom: 0.2rem;
+		padding-bottom: 0.4rem;
 		text-align: center;
 		margin-top: 1.5rem;
+		border-bottom: 1px solid #b6b6b6
 	}
 	.nav-menu-items-500 {
 		display: flex;
@@ -171,6 +172,6 @@ nav {
 		display: block;
 		text-decoration: none;
 		text-align: center;
-		margin: 1rem;
+		margin-top: 1rem;
 	}
 }
