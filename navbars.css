@@ -71,7 +71,7 @@ nav {
 	display: none;
 }
 
-#anova-1060, .nav-menu-items-1060, .nav-ul-1060 {
+#anova-1060, .nav-menu-items-1060, .nav-a-1060, .experiments-1060, #anova-500, .nav-menu-items-500, .nav-a-500, .experiments-500 {
 	display: none;
 }
 
@@ -129,7 +129,7 @@ nav {
 		font-size: 1.13rem;
 		color: #696969;
 	}
-	.nav-a, .experiments {
+	.nav-a-1060, .experiments-1060 {
 		text-decoration: none;
 		text-align: center;
 		margin: 2rem;
