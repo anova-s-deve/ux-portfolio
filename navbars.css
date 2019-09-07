@@ -119,6 +119,7 @@ nav {
 	.top-nav, #anova-500, .nav-menu-items-500, .nav-a-500, .experiments-500 {
 		display: none;
 	}
+
 	#anova-1060 {
 		font-family: 'Miriam Libre', sans-serif;
 		font-size: 1.13rem;
@@ -129,6 +130,7 @@ nav {
 		text-align: center;
 		margin-top: 1.5rem;
 	}
+
 	.nav-menu-items-1060 {
 		display: flex;
 		flex-direction: row;
@@ -137,11 +139,16 @@ nav {
 		font-size: 1.13rem;
 		color: #696969;
 	}
+
 	.nav-a-1060, .experiments-1060 {
 		display: flex;
 		text-decoration: none;
 		text-align: center;
 		margin: 2rem;
+	}
+
+	.contact-icon {
+		max-width: 85%;
 	}
 }
 
@@ -149,6 +156,7 @@ nav {
 	.top-nav, .nav-a-1060, .experiments-1060, .nav-menu-items-1060, #anova-1060 {
 		display: none;
 	}
+
 	#anova-500 {
 		font-family: 'Miriam Libre', sans-serif;
 		font-size: 1.13rem;
@@ -160,6 +168,7 @@ nav {
 		margin-top: 1.5rem;
 		border-bottom: 1px solid #b6b6b6
 	}
+
 	.nav-menu-items-500 {
 		display: flex;
 		flex-direction: column;
@@ -168,10 +177,15 @@ nav {
 		font-size: 1.13rem;
 		color: #696969;
 	}
+
 	.nav-a-500, .experiments-500 {
 		display: block;
 		text-decoration: none;
 		text-align: center;
 		margin-top: 1rem;
+	}
+	
+	.contact-icon {
+		max-width: 85%;
 	}
 }

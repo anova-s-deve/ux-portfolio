@@ -213,7 +213,8 @@
 }
 
 @media screen and (max-width: 1160px) { 
-	.c-image, .cs-image, .dendro-img, .sketch-w, .feaprio, .ia-img, .tagimg, .heuwalk, .verb-i, .usmatrix, .feamatrix, .romap {
+	.c-image, .cs-image, .dendro-img, .sketch-w, .feaprio, .ia-img, .tagimg, .heuwalk, 
+	.verb-i, .usmatrix, .feamatrix, .romap {
 		display: block;
 		margin: 1.5rem auto 0 auto;
 		max-width: 100%;
