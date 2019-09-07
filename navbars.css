@@ -189,3 +189,7 @@ nav {
 		max-width: 85%;
 	}
 }
+
+.icon:hover {
+	fill: hotpink;
+  }
