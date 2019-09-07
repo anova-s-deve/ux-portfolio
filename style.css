@@ -84,6 +84,7 @@ body {
 	font-family: 'Miriam Libre', sans-serif;
 	color: hotpink;
 	font-size: 1.13rem;
+	line-height: 1.7em;
 }
 
 @media screen and (max-width: 1400px) {
@@ -147,6 +148,17 @@ body {
 		grid-template-columns:
 			minmax(1rem, 1fr)
 			minmax(0, 65%)
+			minmax(1rem, 1fr)
+		;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.grid-3 {
+		display: grid;
+		grid-template-columns:
+			minmax(1rem, 1fr)
+			minmax(0, 85%)
 			minmax(1rem, 1fr)
 		;
 	}

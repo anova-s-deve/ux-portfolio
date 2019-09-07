@@ -175,6 +175,12 @@
 	max-width: 35%;
 }
 
+.img-person-1 {
+	display: block;
+	margin: 2rem auto 1.4rem auto;
+	max-width: 35%;
+}
+
 .heuwalk {
 	display: block;
 	margin: 1.5rem auto 0 auto;
@@ -246,6 +252,12 @@
 	.img-person {
 		display: block;
 		margin: 0 auto 1.4rem auto;
+		max-width: 100%;
+	}
+
+	.img-person-1 {
+		display: block;
+		margin: 2rem auto 1.4rem auto;
 		max-width: 100%;
 	}
 }
