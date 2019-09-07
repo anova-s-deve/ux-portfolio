@@ -239,6 +239,7 @@
 }
 
 @media screen and (max-width: 1160px) { 
+
 	.c-image, .cs-image, .dendro-img, .sketch-w, .feaprio, .ia-img, .tagimg, .heuwalk, 
 	.usmatrix, .feamatrix, .romap {
 		display: block;
