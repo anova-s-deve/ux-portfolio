@@ -115,6 +115,6 @@ body {
 			minmax(0, 99%)
 			minmax(1em, 1fr)
 		;
-		margin: 5rem 1rem 3rem 1rem;
+		margin: 5rem 0 3rem 0;
 	}
 }
