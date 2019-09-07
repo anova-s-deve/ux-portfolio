@@ -15,6 +15,13 @@
 	margin-bottom: 0.4rem;
 }
 
+.tool {
+	margin-top: 4.5rem;
+	font-size: 1.8rem;
+	margin-bottom: 0.4rem;
+	text-align: center;
+}
+
 .zero-margin-bott {
 	margin-top: 2.5rem;
 	font-size: 1.8rem;
@@ -67,6 +74,13 @@
 .num-list {
 	color: #696969;
 	line-height: 2rem;
+	padding-inline-start: 3rem;
+	margin-block-end: 0;
+}
+
+.num-list-take {
+	color: #696969;
+	line-height: 2rem;
 	padding-inline-start: 0;
 	margin-block-end: 0;
 }
@@ -74,13 +88,12 @@
 .num-ul-ol {
 	color: #696969;
 	line-height: 2rem;
-	padding-inline-start: 0;
+	padding-inline-start: 3rem;
 	margin-block-end: 0;
 	margin-block-start: 1.5em;
 }
 
 .list-item {
-	width: 45rem;
 	margin: 0 auto;
 }
 
@@ -96,12 +109,10 @@
 }
 
 .list-item-takeaway {
-	width: 45rem;
 	margin: 0 auto 2em auto;
 }
 
 .list-item-takeaway-last {
-	width: 45rem;
 	margin: 0 auto 0 auto;
 }
 

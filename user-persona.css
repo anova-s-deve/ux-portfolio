@@ -31,11 +31,12 @@
     color: #696969;
     grid-column: 2;
     font-size: 0.95rem;
-    margin-top: 2rem;
+    margin: 2rem auto 1em auto;
     text-align: left;
     line-height: 1.4rem;
-    padding-inline-start: 8rem;
+    padding-inline-start: 0;
 }
+
 
 .persona-goal {
     text-align: center;
@@ -44,6 +45,7 @@
     font-weight: 700;
     font-size: 1.15rem;
     margin-top: 1em;
+    margin-bottom: 0.5em;
     font-family: 'Miriam Libre', sans-serif;
 }
 
@@ -52,9 +54,10 @@
     grid-column: 2;
     font-size: 0.95rem;
     margin-top: 0.5em;
-    text-align: left;
+    text-align: center;
     line-height: 1.3rem;
     margin-bottom: 1.9rem;
+    padding-bottom: 2.5em;
     border-bottom: 1px dashed #b6b6b6;
 }
 
@@ -63,9 +66,10 @@
     grid-column: 2;
     font-size: 0.95rem;
     margin-top: 0.5em;
-    text-align: left;
+    text-align: center;
     line-height: 1.3rem;
     margin-bottom: 2.2rem;
+    padding-bottom: 2.5em;
     border-bottom: 1px dashed #b6b6b6;
 }
 

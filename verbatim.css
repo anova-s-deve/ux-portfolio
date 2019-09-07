@@ -8,7 +8,6 @@
     background-color: #b6b6b67d;
     padding: 0.4em;  
     text-align: center;
-
 }
 
 .verbatim-f {
@@ -17,6 +16,7 @@
     font-size: 1.1rem;
     margin: 1.1em auto 0.7em auto;
     color: #696969;
+    line-height: 1.4em;
 }
 
 .verbatim {
@@ -25,6 +25,7 @@
     font-size: 1.1rem;
     margin: 0.7em auto 0.7em auto;
     color: #696969;
+    line-height: 1.4em;
 }
 
 .verbatim-l {
@@ -33,6 +34,7 @@
     font-size: 1.1rem;
     margin: 0.7em auto 3.5rem auto;
     color: #696969;
+    line-height: 1.4em;
 }
 
 .verbatch-l {
