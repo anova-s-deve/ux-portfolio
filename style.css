@@ -73,7 +73,7 @@ body {
 	grid-column: 2;
 }
 
-.full-width, .title {
+.full-width {
 	grid-column: 1 / 4;
 }
 
