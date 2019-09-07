@@ -53,14 +53,10 @@ body {
 }
 
 .grid-5 {
-	display: grid;
-	grid-template-columns:
-		minmax(1em, 1fr)
-		repeat(3, minmax(0, 25%))
-		minmax(1em, 1fr)
-	;
-	margin: 5rem 0 3rem 0;
-	grid-gap: 1.8rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 5rem 7rem 3rem 7rem;
 }
 
 .full-width {
@@ -95,5 +91,30 @@ body {
 			minmax(0, 85%)
 			minmax(1em, 1fr)
 		;
+	}
+}
+
+@media screen and (max-width: 1300px) {
+	.grid-5 {
+		display: grid;
+		grid-template-columns:
+			minmax(1em, 1fr)
+			minmax(0, 37.5%)
+			minmax(0, 37.5%)
+			minmax(1em, 1fr)
+		;
+		margin: 5rem 1rem 3rem 1rem;
+	}
+}
+
+@media screen and (max-width: 1060px) {
+	.grid-5 {
+		display: grid;
+		grid-template-columns:
+			minmax(1em, 1fr)
+			minmax(0, 99%)
+			minmax(1em, 1fr)
+		;
+		margin: 5rem 1rem 3rem 1rem;
 	}
 }
