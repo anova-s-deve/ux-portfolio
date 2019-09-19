@@ -1,9 +1,11 @@
 /* external css style file */
 
-.iframe-container{
+/* aspect ratio : 1.40474 */
+
+.iframe-container {
     position: relative;
     width: 50%;
-    padding-bottom: 56.25%; 
+    padding-bottom: 35.59378%; 
     height: 0;
     margin: 7rem auto;
 }
@@ -12,4 +14,24 @@
     position: absolute;
     width: 100%;
     height: 100%;
+}
+
+@media screen and (max-width: 1160px) {
+    .iframe-container {
+        position: relative;
+        width: 70%;
+        padding-bottom: 49.83129%; 
+        height: 0;
+        margin: 7rem auto;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .iframe-container {
+        position: relative;
+        width: 90%;
+        padding-bottom: 64.0688%; 
+        height: 0;
+        margin: 7rem auto;
+    }
 }
