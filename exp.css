@@ -1,5 +1,9 @@
 /* external css style file */
 
-#canvas {
-    border: 2px solid hotpink;
+.video {
+    display: block;
+    width: 560px;
+    height: 315px;
+    width: 60%;
+    margin: auto;
 }

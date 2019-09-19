@@ -58,6 +58,7 @@ nav {
 
 .experiments, .experiments-1060, .experiments-500 {
 	opacity: 0.65;
+	cursor: disabled;
 	color: #696969; 
 }
 
