@@ -2,11 +2,14 @@
 
 .iframe-container{
     position: relative;
-    width: 100%;
+    width: 50%;
     padding-bottom: 56.25%; 
     height: 0;
+    margin: 7rem auto;
 }
 
 .iframe-container iframe {
-    
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
