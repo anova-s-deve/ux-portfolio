@@ -51,6 +51,8 @@ body {
     margin-bottom: 0;
 	margin-block-start: 1.3em;
 	align-content: center;
+	margin: auto;
+	width: 55%;
 }
 
 .grid-4 {
