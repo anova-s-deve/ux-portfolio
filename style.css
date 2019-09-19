@@ -43,6 +43,16 @@ body {
     margin-block-start: 1.3em;
 }
 
+.thanks {
+	font-style: italic;
+	font-size: 1rem;
+	line-height: 1.9rem;
+	color: #696969;
+    margin-bottom: 0;
+	margin-block-start: 1.3em;
+	align-content: center;
+}
+
 .grid-4 {
 	display: grid;
 	grid-template-columns:
