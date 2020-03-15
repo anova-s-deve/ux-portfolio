@@ -1,0 +1,31 @@
+Dawkiya
+A PASSION PROJECT
+
+
+Competitive Audit
+Philately
+		
+Although Philately refers to 
+The value of a Postage Stamp is decided by :
+1. Condition
+2. Age
+3. Rarity
+4. Grade
+		
+		
+Scott Specialised Stamp Catalogue- American philatelists
+Stanley Gibbons Catalogue- British philatelists
+
+Business model:
+
+UVP:
+
+Buying format : eBay, Amazon
+Best Offer
+Auction
+Buy it now
+
+Competitive Audit
+Existing competitors in e-commerce for stamp collection.
+
+Feature Audit
