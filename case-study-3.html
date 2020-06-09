@@ -27,66 +27,351 @@
 	<nav class="top-nav"> <!-- Top Tab navigation -->
 		<a id="anova" href="anova.html" target="_self"><b>Anova S. Deve</b></a>
 		<li class="nav-menu-items">
-			<a class="nav-a" href="cs.html" target="_self"><ul class="nav-ul" style="color: hotpink;">Case Studies</ul></a>
-			<a class="experiments" href="experiments.html" target="_self"><ul class="nav-ul">Experiments</ul></a>
+			<a class="experiments" href="experiments.html" target="_self"><ul class="nav-ul">Lo-fi</ul></a>
 			<a class="nav-a" href="about-me.html" target="_self"><ul class="nav-ul">About</ul></a>
 		</li>
 	</nav>
 
 	<a id="anova-1060" href="anova.html" target="_self"><b>Anova S. Deve</b></a>
 	<div class="nav-menu-items-1060">
-		<a class="nav-a-1060" href="cs.html" target="_self" style="color: hotpink;">Case Studies</a>
-		<a class="experiments-1060" href="experiments.html" target="_self">Experiments</a>
+		<a class="experiments-1060" href="experiments.html" target="_self">Lo-fi</a>
 		<a class="nav-a-1060" href="about-me.html" target="_self">About</a>
 	</div>
 	
 	<a id="anova-500" href="anova.html" target="_self"><b>Anova S. Deve</b></a>
 	<div class="nav-menu-items-500">
-		<a class="nav-a-500" href="cs.html" target="_self" style="color: hotpink;">Case Studies</a>
-		<a class="experiments-500" href="experiments.html" target="_self">Experiments</a>
+		<a class="experiments-500" href="experiments.html" target="_self">Lo-fi</a>
 		<a class="nav-a-500" href="about-me.html" target="_self">About</a>
 	</div>
-	
+
+	<div class="title-over-image">
+		<h1 class="page-title-image">Shelter App Redesign</h1>
+		<div class="case-study-tagline-image">System and Product Redesign</div>
+		<div class="case-study-date-image">2017-2018</div>		
+	</div>
+	<img class="cs-image-shelter" src="images/shelter-hero@2x.jpg" alt="wirefarme-1">
+
 	<section class="grid-3"> <!-- content -->
-		<h1 class="page-title">Dawkiya</h1>
-		<div class="case-study-tagline">A PASSION PROJECT</div>
 
+		<p class="text"><b class="bold">About 54% of the people inhabiting the overcrowded phenomenon of  
+			urban slums India were plagued with distressing sanitary conditions in 2018.</b> 
+		 The lack of access to household toilets and subsequent open 
+		 defecation posing environmental risks begins to bear an even uglier face in cases where the
+		 safety and health of women, the disabled, elderly or the ill are compromised.
+		</p>
 
-		<div>Competitive Audit</div>
-		<div>Philately</div>
-		Although Philately refers to 
-		<div>The value of a Postage Stamp is decided by :</div>
-		Condition
-		Age
-		Rarity
-		Grade
+		<h2 class="heading-two">Introducing the OHOT Model</h2>
+		<p class="text">Recognizing the problems posed by open defecation as well as community toilets that have their own 
+			set of disadvantages; <b class="bold">Shelter Associates (SA)</b>, a Pune based grassroots level non-profit has over the years
+			perfected a safe and affordable solution to the sanitation problem that focuses on facilitating individual 
+			household toilets through its data driven, replicable, scalable and multi-stakeholder inclusive <b class="bold">‘One Home One Toilet’ (OHOT) model</b>
+			. The Initiative was awarded <b class="bold">The Local Project Challenge Honor Award 2020 at 
+				The World Urban Forum by the UN Habitat</b>.</p> 
+		<p class="text"><a class="inline-links" href="http://shelter-associates.org/support.php">The model involves the construction materials facilitated by our donors being delivered at the beneficiaries'
+			doorstep free of cost for them and the beneficiary family contributing towards the construction of the toilet instilling a sense of ownership among the beneficiaries.</a></p>
+	
+		<h2 class="heading-two">My Role</h2>
+		<p class="text">My engagement with SA was piqued by my interest in mapping informal
+			human settlements for their documentation and progression. I worked in the capacity of a designer redesigning 
+			the product called Shelter App and in the process also worked on some very interesting and niche spatial data 
+			management and visualisation.</p>
+		 
+		<h2 class="heading-two">User Research</h2>
+		<h4 class="heading-four">Workflow</h4>
+		<p class="text">SA has been involved in mapping settlement patterns and infrastructure in and around slums across Pune,
+			Kolhapur, Sangli, Pimpri Chinchwad and recently Navi Mumbai partnering with local
+			government bodies to deliver sanitation infrastructure to individual households in slums. The workflow is as follows:</p>
+
+		<div class="full-width">
+			<img class="romap" src="images/workflow.svg" alt="ux-roadmap">
+		</div>
 		
-		Scott Specialised Stamp Catalogue- American philatelists
-		Stanley Gibbons Catalogue- British philatelists
+		<h4 class="heading-four">User Personas</h4>
+			
+		<ol class="num-list" type="1">
+			<li class="list-item"><b class="bold">Executive Director</b><br>"I need a summarised dashboard to stay up to date with our delivery and overall reach."</li><br>
+			<li class="list-item"><b class="bold">Monitoring & Evaluation (M&E) Manager</b><br>"I need to be able to assess the progress of work across cities on a day-to-day basis
+				and manage all the data generated through mapping and surveys."
+			</li><br>
+			<li class="list-item"><b class="bold">Project Manager at city level</b><br>"I need to be able to monitor progress in my city and assign work to
+				community workers."
+			</li><br>
+			<li class="list-item"><b class="bold">GIS analyst</b><br>"I need to be able to draw up required maps more efficiently and would 
+				want the process of data cleaning eradicated for every slum surveyed."</li><br>
+			<li class="list-item"><b class="bold">Donor</b><br>"I want to see where my money is being used."</li><br>
+			<li class="list-item"><b class="bold">Engineers at Municipal Corporations</b><br>"We need access to city-wide
+				GIS data on sanitation in slums and to be able to monitor progress of delivery."
+			</li><br>
+		</ol>
 
-		Business model:
+		<h4 class="heading-four">Problems identified</h4>
+		<p class="text">On conducting usability tests of the existing user flows with the Executive Director, M&E Manager, Project Manager and GIS 
+			analysts, these broad problems were identified:
+		</p>
+		<ol class="num-list" type="1">
+			<li class="list-item">Due to different individuals handling data collection and other socio-political changes in the scenario being surveyed,
+				20 years' worth of data on sanitation of informal
+				settlements across these 5 districts was in different formats, hence, unfit for integration and analysis.
+			</li>
+			<li class="list-item">Using a proprietary GIS software which hasn't had any updates in the past 5 years was affecting the team's 
+				scalability and efficiency.
+			</li>
+			<li class="list-item">Maps made by different analysts followed different cartographic styles due to the lack of a 
+				cartographic style guide.
+			</li>
+			<li class="list-item">Dashboards designed were not optimised to be used by different stakeholders. </li>
+		</ol>
+		 
+		<h2 class="heading-two">Red Routes</h2>
+		<p class="text">Based on the problems identified and requirements collected from the users, the following red routes
+			were proposed:
+		</p>
 
-		UVP:
+		<ol class="num-list" type="1">
+			<li class="list-item"><b class="bold">Survey form redesign and Data migration</b></li>
+			<li class="list-item"><b class="bold">Dashboard redesign</b></li>
+			<li class="list-item"><b class="bold">Cartographic style guides and themes</b></li>
+		</ol>
 
-		<div>Buying format : eBay, Amazon</div> 
-		Best Offer
-		Auction
-		Buy it now
+		<h3 class="heading-three">1. Survey form redesign and Data migration</h3>
+		<p class="text">We switched to an open-source web-based application called 
+			<a class="inline-links" href="https://www.kobotoolbox.org/">Kobo Toolbox</a> for defining and deploying survey forms 
+			and it's android app which also works offline for data collection. Surveys were redesigned to incorporate 
+			<a class="inline-links" href="https://docs.getodk.org/form-logic/">form logic</a> that includes
+			validating and restricting responses and types, conditional questions, setting defaults and cascading lists.</p>
+		<p class="text">The data collection was segregated into  
+			the following surveys:</p>
 
-		<div>Competitive Audit</div>
-		Existing competitors in e-commerce for stamp collection.
+		<ol class="num-list" type="1">
+			<li class="list-item"><b class="bold">Rapid Infrastructure Mapping</b> – mapping of existing infrastructure of slum</li>
+			<li class="list-item"><b class="bold">Rapid Infrastructure factsheet</b> – profiling of slum</li>
+			<li class="list-item"><b class="bold">Rapid Household Surveys</b> – collecting household level data</li>
+			<li class="list-item"><b class="bold">Individual factsheet</b> – for maintaining record of completed toilets</li>
+		</ol>
 
-		Feature Audit
+		<p class="text">The process involved charting elaborate decision trees on MindMeister for each of the surveys and 
+			defining them on Kobo Form Builder as per the logic developed with user research.
+		</p>
 
+		<div class="full-width">
+			<img class="romap" src="images/decisionTree.png" alt="ux-roadmap">
+		</div>
 
-
-
+		<p class="text">All the existing data in multiple formats was migrated to the newly created forms.
+			This migrated data then fed into the dashboards designed for different users.</p>
 
 		
-		<p class="text"><i>Heartfelt thanks to Abhijit for the support. I extend 
-		the gratitude to friends that cooperated with the one-on-one interviews, telephonic feedback and
-		card sort exercise.</i></p>
+		<h3 class="heading-three">2. Dashboard redesign</h3>
+		<h4 class="heading-four">Goals</h4>
+		<ol class="num-list" type="1">
+			<li class="list-item">The dashboard for various users would be a unified form of access 
+				for all the data that Shelter collects.</li>
+			<li class="list-item">It must allow the user to zero-in on specific data points and further inspect it for 
+				deeper insights.
+			</li>
+			<li class="list-item">It must answer frequently asked questions at a glance.</li>
+		</ol>
+		<p class="text"></p>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<h3 class="heading-three">3. Cartographic style guides and themes</h3>
+		<p class="text">There were 25 thematic maps that are created from the forms collected 
+		</p>
+
+		<ol class="num-list" type="1">
+			<li class="list-item">Story: Status of construction, Status of defecation</li>
+			<li class="list-item">Data</li>
+			<li class="list-item">Map Design</li>
+			<li class="list-item">Web mapping</li>
+			<li class="list-item">UX</li>
+			<li class="list-item">Publishing</li>
+		</ol>
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<h2 class="heading-two">Challenges</h2>
+		<p class="text"></p>
+
+		<ol class="num-list" type="1">
+			<li class="list-item">It was imperative to not disrupt the rate of delivery of operations 
+				when transitioning to the new databases and deploying questionnaires.</li>
+			<li class="list-item">Data</li>
+			<li class="list-item">Map Design</li>
+			<li class="list-item">Web mapping</li>
+			<li class="list-item">UX</li>
+			<li class="list-item">Publishing</li>
+		</ol>
+
+		<h2 class="tool"> Technologies used</h2>
+
+		<p class="tools-u">ODK	•	Figma	•	Procreate</p>
+		<p class="tools-u-l">Agile Methodology	•	Design Thinking</p>
 
 
 		<figcaption class="emoji-end">&#127797</figcaption>
