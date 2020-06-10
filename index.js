@@ -1,12 +1,21 @@
-var el = document.getElementsByClassName("overlay-inner");
-for (i in el){
-    el[i].addEventListener("mouseover", function(){
-        textVisible();
-    });
+function textVisible() {   
+    if( window.innerWidth < 1400 ) {
+        this.querySelectorAll(".top-left-1400")[0].style.opacity="1";
+    }
 }
 
-function textVisible() {
-    document.getElementsByClassName("top-left-1400").style.opacity = "1";
-    document.getElementsByClassName("overlay-inner").style.backgroundColor = "black";
-    document.getElementsByClassName("overlay-inner").style.opacity = "0.7";
+function textInvisible() {
+    if( window.innerWidth < 1400 ) {
+        this.querySelectorAll(".top-left-1400")[0].style.opacity="0";
+    }
 }
+
+var el = document.getElementsByClassName("overlay-inner");
+for (let i of el){
+    i.addEventListener("mouseover", textVisible)
+}
+
+for (let i of el){
+    i.addEventListener("mouseout", textInvisible)
+}
+

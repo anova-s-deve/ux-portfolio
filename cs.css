@@ -80,16 +80,25 @@
 	font-weight: 700;
 	z-index: 100;
 	color: white;
+	opacity: 0.6;
+}
+
+.left-50 {
+	position: absolute;
+	left: 50%;
+	margin: 25% 0 25% 0;
 }
 
 .top-left-1400 {
-	position: absolute;
-	top: 3rem;
-	left: 2rem;
+	position: relative;
+	top: 50%;
+	left: -50%;
 	font-size: 1.6rem;
 	font-weight: 700;
 	z-index: 100;
 	color: white;
+	line-height: 2.2rem;
+
 }
 
 .top-left-p {
@@ -99,6 +108,7 @@
 	font-size: 1.2rem;
 	z-index: 100;
 	color: white;
+	opacity: 0.6;
 }
 
 .top-left-p-N {
@@ -138,7 +148,7 @@
 	.top-left-1400 {
 		opacity: 0;
 	}
-
+	
 	.grid-5-1400 {
 		display: flex;
 		flex-direction: row;
@@ -155,7 +165,7 @@
 
 	.overlay-inner:hover{
 		background-color: black;
-		opacity: 0.7;
+		opacity: 0.75;
 	}	
 }
 
@@ -177,7 +187,7 @@
 
 	.overlay-inner:hover{
 		background-color: black;
-		opacity: 0.7;
+		opacity: 0.75;
 	}	
 }
 
@@ -199,7 +209,7 @@
 
 	.overlay-inner:hover{
 		background-color: black;
-		opacity: 0.7;
+		opacity: 0.75;
 	}	
 }
 
@@ -221,7 +231,7 @@
 
 	.overlay-inner:hover{
 		background-color: black;
-		opacity: 0.7;
+		opacity: 0.75;
 	}	
 }
 
@@ -243,7 +253,7 @@
 
 	.overlay-inner:hover{
 		background-color: black;
-		opacity: 0.7;
+		opacity: 0.75;
 	}	
 }
 
