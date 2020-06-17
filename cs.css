@@ -101,6 +101,8 @@
 
 }
 
+
+
 .top-left-p {
 	position: absolute;
 	top: 5.5rem;
@@ -167,6 +169,7 @@
 		background-color: black;
 		opacity: 0.75;
 	}	
+	
 }
 
 @media screen and (max-width: 1300px) {
@@ -233,6 +236,7 @@
 		background-color: black;
 		opacity: 0.75;
 	}	
+
 }
 
 @media screen and (max-width: 790px) {

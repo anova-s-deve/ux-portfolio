@@ -383,3 +383,23 @@
 	float: right;
 	box-shadow: 0px 0px 25px 10px rgba(0,0,0,0.08);
 }
+
+.persona-emoji {
+	font-size: 6rem;
+    margin: 3rem auto 3rem auto;
+    text-align: center;
+}
+
+.persona-emoji-title {
+	font-size: 1.1rem;
+    margin: 0rem auto 1.5rem auto;
+	text-align: center;
+	line-height: 2rem;
+}
+
+.persona-emoji-desc {
+    margin: 0rem auto 4rem auto;
+	text-align: center;
+	color: #696969;
+	line-height: 1.8rem ;
+}
