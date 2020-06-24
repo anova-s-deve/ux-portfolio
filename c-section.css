@@ -21,18 +21,6 @@
 	left: -50%;
 }
 
-.case-study-tagline-image-b {
-	color: black;
-	text-align: center;
-	font-size: 1.75rem;
-	font-style: normal;
-	font-variant: all-petite-caps;
-	margin-top: 0.8rem;
-	line-height: 1.5rem;
-	position: relative; 
-	left: -50%;
-}
-
 .case-study-date {
 	text-align: center;
 	font-size: 1.2rem;
@@ -44,18 +32,6 @@
 
 .case-study-date-image {
 	color: white;
-	text-align: center;
-	font-size: 1.2rem;
-	font-style: normal;
-	margin-bottom: 6rem;
-	margin-top: 0.8rem;
-	font-weight: lighter;
-	position: relative; 
-	left: -50%;
-}
-
-.case-study-date-image-b {
-	color: black;
 	text-align: center;
 	font-size: 1.2rem;
 	font-style: normal;
