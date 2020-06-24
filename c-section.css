@@ -54,6 +54,7 @@
 	font-size: 1.8rem;
 	margin-bottom: 0.4rem;
 	line-height: 1.5em;
+	color: white;
 }
 
 .flightbuddy-product-features {
@@ -346,8 +347,15 @@
 
 .trello {
 	display: block;
-	margin: 3rem auto 0 auto;
+	margin: 3rem auto 3rem auto;
 	max-width: 65%;
+}
+
+.scope {
+	display: block;
+	margin: 3rem auto 8rem auto;
+	max-width: 40%;
+	box-shadow: 0px 0px 25px 10px rgba(0,0,0,0.08);
 }
 
 .userFlow {
@@ -369,16 +377,33 @@
 .touchpoint1 {
 	grid-column: 1;
 	display: block;
-	margin: 5rem auto 0 0;
+	margin: 5rem auto 2rem 0;
 	max-width: 85%;
 	float: left;
-
 }
 
 .touchpoint2 {
 	grid-column: 2;
 	display: block;
-	margin: 5rem 0 0 auto;
+	margin: 5rem 0 2rem auto;
+	max-width: 85%;
+	float: right;
+	box-shadow: 0px 0px 25px 10px rgba(0,0,0,0.08);
+}
+
+.power-user1 {
+	grid-column: 1;
+	display: block;
+	margin: 5rem auto 8rem 0;
+	max-width: 85%;
+	float: left;
+	box-shadow: 0px 0px 25px 10px rgba(0,0,0,0.08);
+}
+
+.power-user2 {
+	grid-column: 2;
+	display: block;
+	margin: 5rem 0 8rem auto;
 	max-width: 85%;
 	float: right;
 	box-shadow: 0px 0px 25px 10px rgba(0,0,0,0.08);
@@ -402,4 +427,10 @@
 	text-align: center;
 	color: #696969;
 	line-height: 1.8rem ;
+}
+
+.ratingSliderVideo {
+	margin: 5rem auto 4rem auto;
+	max-width: 45%;
+	box-shadow: 0px 0px 25px 10px rgba(0,0,0,0.08);
 }

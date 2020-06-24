@@ -65,11 +65,29 @@ body {
     margin-block-start: 1.3em;
 }
 
+.text-touchpoint1 {
+	font-size: 1rem;
+	line-height: 1.9rem;
+	color: #696969;
+    margin-bottom: 5rem;
+	margin-block-start: 1.3em;
+	margin-right: 4rem;
+}
+
+.text-touchpoint2 {
+	font-size: 1rem;
+	line-height: 1.9rem;
+	color: #696969;
+    margin-bottom: 5rem;
+	margin-block-start: 1.3em;
+	margin-left: 4rem;
+}
+
 .text-left {
 	font-size: 1rem;
 	line-height: 1.9rem;
 	color: #696969;
-	margin: 1.3em 8rem 0 0;
+	margin: 0 8rem 0 0;
 }
 
 .thanks {
