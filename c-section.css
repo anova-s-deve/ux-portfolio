@@ -394,7 +394,7 @@
 .power-user1 {
 	grid-column: 1;
 	display: block;
-	margin: 5rem auto 8rem 0;
+	margin: 5rem auto 5rem 0;
 	max-width: 85%;
 	float: left;
 	box-shadow: 0px 0px 25px 10px rgba(0,0,0,0.08);
@@ -403,7 +403,7 @@
 .power-user2 {
 	grid-column: 2;
 	display: block;
-	margin: 5rem 0 8rem auto;
+	margin: 5rem 0 5rem auto;
 	max-width: 85%;
 	float: right;
 	box-shadow: 0px 0px 25px 10px rgba(0,0,0,0.08);
