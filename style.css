@@ -69,7 +69,7 @@ body {
 	font-size: 1rem;
 	line-height: 1.9rem;
 	color: #696969;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 	margin-block-start: 1.3em;
 	margin-right: 4rem;
 }
@@ -78,7 +78,7 @@ body {
 	font-size: 1rem;
 	line-height: 1.9rem;
 	color: #696969;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 	margin-block-start: 1.3em;
 	margin-left: 4rem;
 }
@@ -133,7 +133,16 @@ body {
 	overflow: visible;
 }
 
-.grid-7 > .fullScroll {
+.grid-7-1 {
+	display: grid;
+	grid-template-columns:
+		minmax(0, 50%)
+		minmax(0, 50%)
+	;
+	overflow: visible;
+}
+
+.grid-7-1 > .fullScroll {
 	grid-column: 2;
 }
 
@@ -149,6 +158,12 @@ body {
 	color: hotpink;
 	font-size: 1.13rem;
 	line-height: 1.7em;
+}
+
+@media screen and (min-width: 1161px) {
+	.text-invisible {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 1400px) {
@@ -190,7 +205,24 @@ body {
 			minmax(1rem, 1fr)
 		;
 	}
+	.text-left {
+		display: none;
+	}
+
+	.text-invisible {
+		font-size: 1rem;
+		line-height: 1.9rem;
+		color: #696969;
+		margin-bottom: 0;
+		margin-block-start: 4em;
+	}
+
+	.grid-7-1 {
+		display: none;
+	}
 }
+
+
 
 @media screen and (max-width: 600px) {
 	.grid-3 {
