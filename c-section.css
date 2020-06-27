@@ -208,6 +208,14 @@
 	max-width: 65%;
 }
 
+.romap-link {
+	display: block;
+	margin: 3rem auto 2rem auto;
+	max-width: 65%;
+	border-radius: 2rem;
+	box-shadow: 0px 0px 25px 10px rgba(0,0,0,0.11);
+}
+
 .feamatrix {
 	display: block;
 	margin: 1.5rem auto 0 auto;
@@ -318,6 +326,14 @@
 		display: block;
 		margin: 1.5rem auto 0 auto;
 		max-width: 100%;
+	}
+
+	.romap-link {
+		display: block;
+		margin: 3rem auto 2rem auto;
+		max-width: 80%;
+		border-radius: 2rem;
+		box-shadow: 0px 0px 25px 10px rgba(0,0,0,0.11);
 	}
 
 	.verb-i {
