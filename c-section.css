@@ -151,6 +151,10 @@
 	margin: 0 auto;
 }
 
+.list-item-color-schemes {
+	margin: 5rem auto 0 auto;
+}
+
 .heading-five {
 	font-size: 1.2rem;
 	margin-block-start: 1.9em;
@@ -372,6 +376,10 @@
 	}
 
 }
+
+
+
+
 
 @media screen and (max-width: 1000px) { 
 	.fullScroll {

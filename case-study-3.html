@@ -45,13 +45,17 @@
 	</div>
 
 	<div class="title-over-image">
-		<h1 class="page-title-image">Dashboard Redesign</h1>
-		<div class="case-study-tagline-image">A </div>
+		<h1 class="page-title-image">At Shelter Associates</h1>
+		<div class="case-study-tagline-image">Dashboard Redesign and Spatial Data Visualisation</div>
 		<div class="case-study-date-image">JUL 2017 - DEC 2018</div>		
 	</div>
 	<img class="cs-image-shelter" src="images/shelter-hero@2x.jpg" alt="wirefarme-1">
 
 	<section class="grid-3"> <!-- content -->
+		<h1 class="page-title-head">At Shelter Associates</h1>
+		<div class="tagline-head">Dashboard Redesign and Spatial Data Visualisation</div>
+		<div class="date-head">JUL 2017 - DEC 2018</div>
+
 
 		<p class="text"><b class="bold">About 98 million people live in distressing sanitary conditions 
 			across urban slums in India.</b> The lack of household toilets pose not just health risks but 
@@ -156,6 +160,7 @@
 		<ol class="num-list" type="1">
 			<li class="list-item"><b class="bold">Survey form redesign and Data migration</b></li>
 			<li class="list-item"><b class="bold">Dashboard redesign</b></li>
+			<li class="list-item"><b class="bold">Cartographic style guide and themes</b></li>
 		</ol>
 
 		<h3 class="heading-three">1. Survey form redesign and Data migration</h3>
@@ -222,187 +227,54 @@
 		</p>
 
 		<h3 class="heading-three">3. Cartographic style guides and themes</h3>
-		<p class="text">There were 25 thematic maps that are created from the forms collected 
+		<p class="text">Based on usability studies of existing maps with GIS Analysts, the M&E manager and the Executive Director 
+			interacting with maps in ways ranging from its preparation to presentations to stakeholders, it was observed that 
+			developing a cartographic style guide and correcting the use of colour across maps was required. 
+		</p>
+
+		<p class="text">Using design best practices, the corroborated 25 thematic maps prepared
+			by the GIS analysts were categorised into 4 color schemes for spatial data visualisation.  
+			The basic principle is that variations in hue visualize nominal/categorical differences while 
+			variations in lightness visualize ordinal differences.
+		</p>
+
+		<p class="text">We take the example of different thematic maps of Kalakhadak in Kolhapur to demonstrate
+			the style guide to the visualisation.
 		</p>
 
 		<ol class="num-list" type="1">
-			<li class="list-item">Story: Status of construction, Status of defecation</li>
-			<li class="list-item">Data</li>
-			<li class="list-item">Map Design</li>
-			<li class="list-item">Web mapping</li>
-			<li class="list-item">UX</li>
-			<li class="list-item">Publishing</li>
+			<li class="list-item-color-schemes"><b class="bold">Qualitative scheme</b></li>
+			<p class="text">Nominal data like the Type of structure occupancy, Ownership status of 
+				the house, Type of water connection, Facility of household solid waste collection, 
+				Current place of defecation, Type of toilet preferrred etc. use 
+				a qualitative color scheme to illuminate on each of the themes and spatial patterns if any.
+			</p>
+
+			<p class="text">This is a map that showcases the type of structure occupancy in Kalakhdak, Kolhapur.
+			</p>
+			<div class="full-width">
+				<img class="cs-image" src="images/qual.png" alt="ux-roadmap">
+			</div>
+	
+			<li class="list-item-color-schemes"><b class="bold">Sequential scheme</b></li>
+			<p class="text">Ordinal data such as Type of structure of the house, House area in sq.ft., 
+				Availability of sewage connection are represented better by sequential color schemes. The map below shows House 
+				area in sq.ft. across Kalakhadak.
+			</p>
+			<div class="full-width">
+				<img class="cs-image" src="images/sequential.png" alt="ux-roadmap">
+			</div>
+
+			<li class="list-item-color-schemes"><b class="bold">Binary scheme</b></li>
+			<p class="text">Nominal differences with two opposing data points like a yes or no survey question
+				served as the sample of binary color schemes. Data representing whether a household was or wasn't 
+				interested in having a household toilet built, the ownership status of the occupants etc. are examples for this scheme.
+				The map below shows the data for whether or not the household is interested in building a household toilet.
+			</p>
+			<div class="full-width">
+				<img class="cs-image" src="images/yesno.png" alt="ux-roadmap">
+			</div>
 		</ol>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 		<h2 class="heading-two">Challenges</h2>
@@ -411,11 +283,9 @@
 		<ol class="num-list" type="1">
 			<li class="list-item">It was imperative to not disrupt the rate of delivery of operations 
 				when transitioning to the new databases and deploying questionnaires.</li>
-			<li class="list-item">Data</li>
-			<li class="list-item">Map Design</li>
-			<li class="list-item">Web mapping</li>
-			<li class="list-item">UX</li>
-			<li class="list-item">Publishing</li>
+			<li class="list-item">Generating 25 colour schemes for thematic maps was a big challenge.</li>
+			<li class="list-item"></li>
+
 		</ol>
 
 		<h2 class="tool"> Technologies used</h2>
