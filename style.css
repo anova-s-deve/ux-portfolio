@@ -109,6 +109,14 @@ body {
     margin-block-start: 1.3em;
 }
 
+.text-top {
+	font-size: 1rem;
+	line-height: 1.9rem;
+	color: #696969;
+    margin-bottom: 0;
+    margin-block-start: 5em;
+}
+
 .text-touchpoint1 {
 	font-size: 1rem;
 	line-height: 1.9rem;

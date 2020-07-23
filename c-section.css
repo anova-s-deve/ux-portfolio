@@ -250,6 +250,12 @@
 	max-width: 35%;
 }
 
+.hsl {
+	display: block;
+	margin: 3rem auto 1.4rem auto;
+	max-width: 30%;
+}
+
 .heuwalk {
 	display: block;
 	margin: 1.5rem auto 0 auto;
@@ -323,6 +329,13 @@
 	display: none;
 }
 
+.style-dashboard {
+	display: block;
+	margin: 5rem auto 3rem auto;
+	max-width: 80%;
+	box-shadow: 0px 0px 25px 10px rgba(0,0,0,0.08);
+}
+
 @media screen and (max-width: 1160px) { 
 
 	.c-image, .cs-image, .dendro-img, .sketch-w, .feaprio, .ia-img, .tagimg, .heuwalk, 
@@ -392,6 +405,12 @@
 		max-width: 65%;
 		box-shadow: 0px 0px 25px 10px rgba(0,0,0,0.08);
 	}
+
+	.hsl {
+		display: block;
+		margin: 3rem auto 1.4rem auto;
+		max-width: 45%;
+	}
 }
 
 @media screen and (max-width: 850px) { 
@@ -417,6 +436,12 @@
 		margin: 5rem auto 2rem auto;
 		max-width: 80%;
 		box-shadow: 0px 0px 25px 10px rgba(0,0,0,0.08);
+	}
+
+	.hsl {
+		display: block;
+		margin: 3rem auto 1.4rem auto;
+		max-width: 55%;
 	}
 }
 

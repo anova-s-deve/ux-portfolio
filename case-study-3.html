@@ -120,12 +120,11 @@
 			existing infrastructure in slums through spatial analytics."</i>
 
 
-		<div class="persona-emoji">🦸‍♂️</div>
+<!-- 		<div class="persona-emoji">🦸‍♂️</div>
 		<div class="persona-emoji-title"><b class="bold">Union Bank The Donor</b></div>
 		<i class="persona-emoji-desc">"I provide the funds required for the construction of toilets in slums through 
-			our CSR programme. I am also resposible for auditing the intervention post delivery."</i>
+			our CSR programme. I am also responsible for auditing the intervention post delivery."</i>
 
-<!-- 
 		<div class="persona-emoji">👷‍♂️</div>
 		<div class="persona-emoji-title"><b class="bold">Engineers at Municipal Corporations</b></div>
 		<i class="persona-emoji-desc">"We need access to city-wide
@@ -137,18 +136,19 @@
 			analysts, these broad problems were identified:
 		</p>
 		<ol class="num-list" type="1">
-			<li class="list-item">Due to different individuals handling data collection and other socio-political changes in the scenario being surveyed,
-				20 years' worth of data on sanitation of informal
-				settlements across these 5 districts was in different formats, hence, unfit for integration and analysis.
+			<li class="list-item"><b class="bold">Inconsistent raw data : </b>Lack of a consistent methodology in questionnaires used 
+				over time rendered 20 years' worth of data on sanitation of informal
+				settlements across these 5 districts in different formats, unfit for integration and analysis.
 			</li>
-			<li class="list-item">The dashboard designed did not provide any key insights from the data collected by SA. The dashboard was 
-				not designed for any user in specific and hence was not any user's first choice for any specific insight. 
-			</li>
-			<li class="list-item">Maps made by different analysts followed different cartographic styles due to the lack of a 
+			<li class="list-item"><b class="bold">Varying map design : </b>Maps made by different analysts followed different cartographic styles due to the lack of a 
 				cartographic style guide. Using a proprietary GIS software which hasn't had any updates in the past 5 years 
 				was lacking in features used to develop styling templates. It also was hindering the team's scalability due to limited 
 				number of licenses.
 			</li>
+			<li class="list-item"><b class="bold">Dashboards without insights : </b>The dashboard designed did not provide any key insights from the data collected by SA. The dashboard was 
+				not designed for any user in specific and hence was not any user's first choice for any specific insight. 
+			</li>
+
 			
 		</ol>
 		 
@@ -159,14 +159,15 @@
 
 		<ol class="num-list" type="1">
 			<li class="list-item"><b class="bold">Survey form redesign and Data migration</b></li>
-			<li class="list-item"><b class="bold">Dashboard redesign</b></li>
 			<li class="list-item"><b class="bold">Cartographic style guide and themes</b></li>
+			<li class="list-item"><b class="bold">Dashboard redesign</b></li>
+
 		</ol>
 
 		<h3 class="heading-three">1. Survey form redesign and Data migration</h3>
 		<p class="text">We switched to an open-source web-based application called 
 			<a class="inline-links" href="https://www.kobotoolbox.org/">Kobo Toolbox</a> for defining and deploying survey forms 
-			and it's android app which also works offline for data collection. Surveys were redesigned to incorporate 
+			and it's android app which also works offline for data collection. Existing raw data was evaluated and cleaned. Surveys were redesigned to incorporate 
 			<a class="inline-links" href="https://docs.getodk.org/form-logic/">form logic</a> that includes
 			validating and restricting responses and types, conditional questions, setting defaults and cascading lists.</p>
 		<p class="text">The data collection was segregated into  
@@ -190,91 +191,206 @@
 		<p class="text">All the existing data in multiple formats was migrated to the newly created forms.
 			This migrated data then fed into the dashboards designed for different users.</p>
 
-		
-		<h3 class="heading-three">2. Dashboard redesign</h3>
 
-		<p class="text">The visual language chosen for the project was Material Design.</p>
 
-		<p class="text">The Executive Director and the M&E Manager had similar emerged that required different dashboards
-			or interfaces within the Shelter App.</p>
 
-		<p class="text">The prime real estate on the dashboard is dedicated to highlighting deviations in operational data.
-			All other analytical KPIs that drive targeting are shown below the fold.
-		</p>
-		
-			
-			
-			
-			
-			The architecture of the app consisted of a homepage with all non-private data 
-			on sanitation in slums collected by Shelter displayed to any user that lands on the application. This page would allow 
-			users with a login ie., the users identified as the user personas, to login and access their respective
-			dashboards. 
 
-		<h4 class="heading-four">Goals</h4>
-		<ol class="num-list" type="1">
-			<li class="list-item">The dashboard for each user group would serve as a form of access 
-				for all the data that Shelter collects.</li>
-			<li class="list-item">It must allow the user to zero-in on specific data points and further inspect it for 
-				deeper insights.
-			</li>
-			<li class="list-item">It must answer frequently asked questions at a glance.</li>
-		</ol>
 
-		<p class="text">The dashboard was designed to highlight operational data over analytics. The users also demonstarted
-			the need for the dashboard to be used for presentations. Hence certain KPIs for each user groups were also 
-			identified and incorporated into the later parts of the dashboard.
-		</p>
 
-		<h3 class="heading-three">3. Cartographic style guides and themes</h3>
-		<p class="text">Based on usability studies of existing maps with GIS Analysts, the M&E manager and the Executive Director 
-			interacting with maps in ways ranging from its preparation to presentations to stakeholders, it was observed that 
-			developing a cartographic style guide and correcting the use of colour across maps was required. 
-		</p>
 
-		<p class="text">Using design best practices, the corroborated 25 thematic maps prepared
-			by the GIS analysts were categorised into 4 color schemes for spatial data visualisation.  
-			The basic principle is that variations in hue visualize nominal/categorical differences while 
-			variations in lightness visualize ordinal differences.
-		</p>
 
-		<p class="text">We take the example of different thematic maps of Kalakhadak in Kolhapur to demonstrate
-			the style guide to the visualisation.
-		</p>
 
-		<ol class="num-list" type="1">
-			<li class="list-item-color-schemes"><b class="bold">Qualitative scheme</b></li>
-			<p class="text">Nominal data like the Type of structure occupancy, Ownership status of 
-				the house, Type of water connection, Facility of household solid waste collection, 
-				Current place of defecation, Type of toilet preferrred etc. use 
-				a qualitative color scheme to illuminate on each of the themes and spatial patterns if any.
+
+
+
+
+
+
+
+
+
+
+
+			<h3 class="heading-three">2. Cartographic style guides and themes</h3>
+			<p class="text">Based on usability studies of existing maps with GIS Analysts, the M&E manager and the Executive Director 
+				interacting with maps in ways ranging from its preparation to presentations, it was observed that 
+				developing a cartographic style guide and correcting the use of colour across maps was required. 
 			</p>
-
-			<p class="text">This is a map that showcases the type of structure occupancy in Kalakhdak, Kolhapur.
+	
+			<p class="text">Using design best practices, the corroborated <b class="bold">25 thematic maps</b> prepared
+				by the GIS analysts were categorised into 3 color schemes for spatial data visualisation.  
+				<b class="bold">The basic principle is that variations in hue denote nominal/categorical differences while 
+				variations in lightness show ordinal differences.</b>
 			</p>
+	
 			<div class="full-width">
-				<img class="cs-image" src="images/qual.png" alt="ux-roadmap">
+				<img class="hsl" src="images/hsl.png" alt="ux-roadmap">
 			</div>
 	
-			<li class="list-item-color-schemes"><b class="bold">Sequential scheme</b></li>
-			<p class="text">Ordinal data such as Type of structure of the house, House area in sq.ft., 
-				Availability of sewage connection are represented better by sequential color schemes. The map below shows House 
-				area in sq.ft. across Kalakhadak.
+			<p class="text">We take the example of thematic maps of Kalakhadak in Kolhapur to demonstrate
+				the visualisation style guide.
 			</p>
-			<div class="full-width">
-				<img class="cs-image" src="images/sequential.png" alt="ux-roadmap">
-			</div>
+	
+			<ol class="num-list" type="1">
+				<li class="list-item-color-schemes"><b class="bold">Qualitative scheme</b></li>
+				<p class="text">Nominal data like the 'Type of structure occupancy', 'Ownership status of 
+					the house', 'Type of water connection', 'Facility of household solid waste collection', 
+					'Current place of defecation', 'Type of toilet preferrred' etc. use 
+					a qualitative color scheme to illuminate on each of the themes and spatial patterns if any.
+				</p>
+	
+				<p class="text">This is a map that showcases the type of structure occupancy in Kalakhdak, Kolhapur. This map 
+					<b class="bold">uses 
+						variations in hue to highlight each nominal category</b> to the user.
+				</p>
+				<div class="full-width">
+					<img class="cs-image" src="images/qual.png" alt="ux-roadmap">
+				</div>
+		
+				<li class="list-item-color-schemes"><b class="bold">Sequential scheme</b></li>
+				<p class="text">Ordinal data such as 'Type of structure of the house', 'House area in sq.ft.', 
+					'Availability of sewage connection' are represented better by sequential color schemes.
+				</p>
+	
+				<p class="text">The map below shows the house 
+					area in sq.ft. across Kalakhadak. It <b class="bold">uses 
+						gradations in lightness to convey the ordinal differences</b> in the size of tenements in the settlement.
+				</p>
+	
+				<div class="full-width">
+					<img class="cs-image" src="images/sequential.png" alt="ux-roadmap">
+				</div>
+	
+				<li class="list-item-color-schemes"><b class="bold">Binary scheme</b></li>
+				<p class="text">Nominal differences with two opposing data points like a yes or no survey question
+					served as the sample of binary color schemes. Data representing whether a 'household was or wasn't 
+					interested in having a household toilet built', the 'ownership status of the occupants' etc. are examples for this scheme.
+					
+				</p>
+	
+				<p class="text">The map below shows the data for whether or not the household is interested in building a toilet. 
+					This map <b class="bold">uses two contrasting hues to depict binary data</b> .
+				</p>
+				<div class="full-width">
+					<img class="cs-image" src="images/yesno.png" alt="ux-roadmap">
+				</div>
+			</ol>
+	
+			<p class="text-top">The map design 
+				was decided in consultation with the team based on their requirements. The map and data templates for the preparation
+				of all 25 thematic maps was created on an open source GIS software called 
+				<a class="inline-links" href="https://qgis.org/en/site/">QGIS</a>.<b class="bold"> This made the maps 
+				prepared by Shelter unique and the process of preparation of the maps much easier and faster than before.
+					It also contributed to every map passably conveying necessary information.
+				</b>
+			</p>
 
-			<li class="list-item-color-schemes"><b class="bold">Binary scheme</b></li>
-			<p class="text">Nominal differences with two opposing data points like a yes or no survey question
-				served as the sample of binary color schemes. Data representing whether a household was or wasn't 
-				interested in having a household toilet built, the ownership status of the occupants etc. are examples for this scheme.
-				The map below shows the data for whether or not the household is interested in building a household toilet.
-			</p>
-			<div class="full-width">
-				<img class="cs-image" src="images/yesno.png" alt="ux-roadmap">
-			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		<h3 class="heading-three">3. Dashboard redesign</h3>
+
+		<p class="text">This redesign project consists of 3 dashboards for Lata The Executive Director, Smita The M&E Manager and
+			Dhanasree The Project Manager respectively. 
+			The dashboards are a part of the 'Shelter App', a platform for managing and maintaining
+			the data collected by Shelter Associates. Sanitation and hygiene related data
+			is of much value to various institutions for research and developmental activities. 
+			In addition to this data, there is also a generous amount of operational 
+			data that must be converted into insights for team managers.
+		</p>
+
+		<h4 class="heading-four">Goals for the dashboard</h4>
+		<ol class="num-list" type="1">
+			
+			<li class="list-item">Prime real estate on the dashboard must be dedicated to opeartional metrics as have emerged from
+				 user interviews. 
+			</li>
+			<li class="list-item">The dashboard must answer frequently asked questions at a glance.</li>
+			<li class="list-item">The dashboard adopts personalisation over customisation to ensure that users 
+				see what matters the most to them.
+			</li>		
+
 		</ol>
+
+		<h4 class="heading-four">i. Dashboard for Lata The Executive Director</h4>
+
+		<p class="text">The dashboards tab consists of 3 sub-tabs- 'Toilet construction', 'Community mobilisation'
+			and 'RHS and Follow-up'. In this case study, we will be looking at the 'Toilet construction' dashboard. 
+		</p>
+
+		<p class="text">Each user has a personalised dashboard based on the level of information required
+			by each user- Lata The Executive Director, Smita The M&E Manager and 
+			Dhanasree The Project manager.
+		</p>
+
+		<p class="text">There are 3 levels of filters to the dashboard to view insights- All, City level, Slum level. 
+			Lata has access to information at every level. However, her default view would be
+			personalised at the level 'All'.
+		</p>
+
+		<div class="full-width">
+			<img class='style-dashboard' src="images/ExecDir.png" alt="mockup-3">
+		</div>
+
+		<h4 class="heading-four">ii. Dashboard for Smita The M&E Manager</h4>
+
+		<p class="text">
+			Smita also has access to information at every level. However, her default view would be
+			personalised at the level of any one of the cities where the work is ongoing. She also has access to insights
+			at the level 'All' but does not see the operational cards at that level.
+		</p>
+
+		<div class="full-width">
+			<img class='style-dashboard' src="images/M&E.png" alt="mockup-3">
+		</div>
+
+		<h4 class="heading-four">iii. Dashboard for Dhanasree The Project Manager</h4>
+
+		<p class="text"> 
+			Dhanasree's access is restricted to the city assigned to her, for example, Navi Mumbai and
+			the slums within the city. Her default view is at the level of any one of the slums where the work is ongoing.
+		</p>
+
+		<div class="full-width">
+			<img class='style-dashboard' src="images/ProjectManager.png" alt="mockup-3">
+		</div>
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 		<h2 class="heading-two">Challenges</h2>
