@@ -10,6 +10,14 @@
 	text-decoration: none;
 }
 
+.miriam-text {
+	text-align: center;
+	font-family: 'Miriam Libre', sans-serif;
+	font-size: 1.2rem;
+	margin-top: 1em;
+	display: block;
+}
+
 #about1 {
 	text-decoration: none;
 }
@@ -41,14 +49,15 @@
 	margin: 0.5rem 0.5rem 0.5rem 0.5rem;
 	position: relative;
 	text-align: center;
+	text-decoration: none;
 }
 
 .cs-tile-2 {
 	margin: 0.5rem 0.5rem 0.5rem 0.5rem;
 	position: relative;
 	text-align: center;
-	color: white;
 	cursor: not-allowed;
+	text-decoration: none;
 }
 
 .overlay {
@@ -236,7 +245,7 @@
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
-		margin: 3rem 5rem 3rem 5rem;
+		margin: 3rem 5rem 5rem 5rem;
 	}
 
 	.overlay-inner:hover{
@@ -259,7 +268,7 @@
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
-		margin: 2rem 2rem 2rem 2rem;
+		margin: 2rem 2rem 5rem 2rem;
 	}
 
 	.overlay-inner:hover{
