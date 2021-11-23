@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+    <!-- <script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/aes.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    
+    <div>
+        <input type="text" id="file-name" placeholder="Enter your password here"/>
+        <button id = "redirection">Submit</button>
+    </div>
+    <script>
+
+        var redirection = document.getElementById("redirection")
+
+        const cipher = salt => {
+            const textToChars = text => text.split('').map(c => c.charCodeAt(0));
+            const byteHex = n => ("0" + Number(n).toString(16)).substr(-2);
+            const applySaltToChar = code => textToChars(salt).reduce((a,b) => a ^ b, code);
+
+            return text => text.split('')
+            .map(textToChars)
+            .map(applySaltToChar)
+            .map(byteHex)
+            .join('');
+        }
+        redirection.onclick = function(){
+            var password = document.getElementById("file-name").value
+            console.log(password)
+            const myCipher = cipher('ThisIsGoingTobeASecretKeyKnownOnlyToYou')
+            var encrypted = myCipher(password)
+            window.location.replace('file:///home/abhijit/Documents/eda-portfolio/ux-portfolio/'+encrypted+'.html')
+
+        }
+       
+    </script>
+
+
+</body>
+</html>
