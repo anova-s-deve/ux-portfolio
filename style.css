@@ -109,6 +109,14 @@ body {
     margin-block-start: 1.3em;
 }
 
+.text-bottom-border {
+	font-size: 1rem;
+	line-height: 1.9rem;
+	color: #696969;
+    margin-bottom: 2.5em;
+    margin-block-start: 1.3em;
+}
+
 .text-top {
 	font-size: 1rem;
 	line-height: 1.9rem;

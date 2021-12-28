@@ -93,6 +93,11 @@
 	color: #000000;
 }
 
+.semi-bold {
+	color: #000000;
+	font-weight: 600;
+}
+
 .heading-three {
 	font-size: 1.7rem;
 	margin-block-start: 5rem;
@@ -262,6 +267,12 @@
 	max-width: 85%;
 }
 
+.figma {
+	display: block;
+	margin: 1.5rem auto 0 auto;
+	border: #ffffff;
+}
+
 .tagimg {
 	display: block;
 	margin: 1.5rem auto 0 auto;
@@ -272,6 +283,12 @@
 	display: block;
 	margin: 1.5rem auto 0 auto;
 	max-width: 55%;
+}
+
+.shape {
+	display: block;
+	margin: 1.5rem auto 0 auto;
+	max-width: 100%;
 }
 
 .feaprio {

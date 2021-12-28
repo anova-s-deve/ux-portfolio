@@ -29,6 +29,15 @@
     line-height: 1.4em;
 }
 
+.centralise-text {
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+    font-size: 1.1rem;
+    margin: 1.8em auto 0.7em auto;
+    color: #696969;
+    line-height: 1.4em;
+}
+
 .verbatim-l {
     text-align: center;
     font-family: 'Muli', sans-serif;
