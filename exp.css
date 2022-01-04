@@ -4,9 +4,9 @@
 
 .iframe-container {
     position: relative;
-    width: 50%;
+    width: 100%;
     padding-bottom: 39.15315%; 
-    height: 0;
+    height: 40rem;
     margin: 2rem auto 2.5rem;
 }
 
@@ -29,9 +29,9 @@
 @media screen and (max-width: 1160px) {
     .iframe-container {
         position: relative;
-        width: 70%;
+        width: 100%;
         padding-bottom: 49.83129%; 
-        height: 0;
+        height: 35rem;
         margin: 2rem auto 2.5rem;
     }
 
@@ -43,9 +43,9 @@
 @media screen and (max-width: 680px) {
     .iframe-container {
         position: relative;
-        width: 90%;
+        width: 100%;
         padding-bottom: 64.0688%; 
-        height: 0;
+        height: 25rem;
         margin: 2rem auto 2.5rem;
     }
     .post {
