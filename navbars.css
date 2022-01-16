@@ -42,7 +42,7 @@ nav {
 #anova-1060:active, .nav-menu-items-1060:active, .nav-a-1060:active, .experiments-1060:active,
 #anova-500:hover, .nav-menu-items-500:hover, .nav-a-500:hover, 
 #anova-500:active, .nav-menu-items-500:active, .nav-a-500:active, .experiments-500:active{
-	color: hotpink;
+	color: #ff0080;
 }
 
 .nav-menu-items {
@@ -63,7 +63,7 @@ nav {
 }
 
 .experiments:hover, .experiments-1060:hover, .experiments-500:hover {
-	color: hotpink;
+	color: #ff0080;
 	/*opacity: 0.5;*/
 }
 
@@ -191,5 +191,5 @@ nav {
 }
 
 .icon:hover {
-	fill: hotpink;
+	fill: #ff0080;
   }
