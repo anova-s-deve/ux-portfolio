@@ -243,12 +243,12 @@
 }
 
 
-.grid-5-1400, .grid-5-1000, .grid-5-1300, .grid-5-1100, .grid-5-790, .grid-8-1400 {
+.grid-21, .grid-5-1400, .grid-5-1000, .grid-5-1300, .grid-5-1100, .grid-5-790, .grid-8-1400 {
 	display: none;
 }
 
 @media screen and (max-width: 1400px) {
-	.grid-8, .grid-5-1000, .grid-5-1300, .grid-5-1100, .grid-5-790 {
+	.grid-21, .grid-8, .grid-5-1000, .grid-5-1300, .grid-5-1100, .grid-5-790 {
 		display: none;
 	}
 
@@ -278,7 +278,7 @@
 }
 
 @media screen and (max-width: 1300px) {
-	.grid-8, .grid-5-1400, .grid-5-1000, .grid-5-1100, .grid-5-790, .grid-8-1400  {
+	.grid-21, .grid-8, .grid-5-1400, .grid-5-1000, .grid-5-1100, .grid-5-790, .grid-8-1400  {
 		display: none;
 	}
 
@@ -300,7 +300,7 @@
 }
 
 @media screen and (max-width: 1100px) {
-	.grid-8, .grid-5-1400, .grid-5-1000, .grid-5-1300, .grid-5-790, .grid-8-1400 {
+	.grid-21, .grid-8, .grid-5-1400, .grid-5-1000, .grid-5-1300, .grid-5-790, .grid-8-1400 {
 		display: none;
 	}
 
@@ -322,7 +322,7 @@
 }
 
 @media screen and (max-width: 1000px) {
-	.grid-8, .grid-5-1400, .grid-5-1300, .grid-5-1100, .grid-5-790, .grid-8-1400 {
+	.grid-21, .grid-8, .grid-5-1400, .grid-5-1300, .grid-5-1100, .grid-5-790, .grid-8-1400 {
 		display: none;
 	}
 
@@ -357,7 +357,7 @@
 		display: grid;
 		grid-template-columns:
 			minmax(1rem, 1fr)
-			minmax(0, 55%)
+			minmax(0, 90%)
 			minmax(1rem, 1fr)
 		;
 	}
