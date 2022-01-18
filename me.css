@@ -8,6 +8,12 @@
     text-align: center;
 }
 
+.le-modular {
+    display: block;
+	margin: 0 auto 0 auto;
+	max-width: 20%;
+}
+
 .designation, .time-place, .job-description {
 	grid-column: 3;
 	color: #696969;
